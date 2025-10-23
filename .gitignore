@@ -1,0 +1,39 @@
+# AL Language specific files
+*.app
+.alpackages/
+.snapshots/
+*.flf
+
+# AL test results
+testResults.xml
+
+# AL Runtime packages
+rad.json
+
+# AL compiler cache
+*.alcache
+
+# Visual Studio Code
+.vscode/settings.json
+.vscode/launch.json
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# AL Symbol files downloaded
+*.app
