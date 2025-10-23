@@ -1,37 +1,43 @@
-/* page 50100 TasteList
+page 50100 TasteList
 {
-    PageType = Card;
+    PageType = List;
     ApplicationArea = All;
-    UsageCategory = Administration;
+    UsageCategory = Lists;
     SourceTable = Taste;
 
-         layout
-        {
-            area(Content)
-            {
-                group(GroupName)
-                {
-                    field(Name; NameSource)
-                    {
-
-                    }
-                }
-            }
-        } 
-
-    actions
+    layout
     {
-        area(Processing)
+        area(Content)
         {
-            action(ActionName)
+            repeater(Group)
             {
+                field(Code; Rec.Code)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Code';
+                    ToolTip = 'Code of the taste.';
+                }
+                field(Description; Rec.Description)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Taste Description';
+                    ToolTip = 'Description of the taste.';
+                }
+                field("Product Count Display"; Rec.GetProductCountDisplay())
+                {
+                    ApplicationArea = All;
+                    Caption = 'Taste Products';
+                    ToolTip = 'View products with this flavor';
 
-                trigger OnAction()
-                begin
-
-                end;
+                    trigger OnDrillDown()
+                    var
+                        Item: Record Item;
+                    begin
+                        Item.SetRange("Taste.Code", Rec.Code);
+                        Page.Run(Page::"Item List", Item);
+                    end;
+                }
             }
         }
     }
-
-} */
+}

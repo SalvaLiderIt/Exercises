@@ -4,7 +4,7 @@ pageextension 50100 ItemCard extends "Item Card"
     {
         addlast(Item)
         {
-            field("Taste"; Rec."Taste")
+            field("Taste"; Rec."Taste.Code")
             {
                 ApplicationArea = All;
                 Caption = 'Taste';

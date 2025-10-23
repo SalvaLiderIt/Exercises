@@ -24,7 +24,7 @@ table 50100 Taste
         {
             Caption = 'Taste Products Count';
             FieldClass = FlowField;
-            CalcFormula = count(Item where("Taste" = field(Code)));
+            CalcFormula = count(Item where("Taste.Code" = field(Code)));
             Editable = false;
         }
     }
