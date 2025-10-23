@@ -3,7 +3,8 @@
     "al.codeAnalyzers": [
         "${CodeCop}",
         "${UICop}",
-        "${PerTenantExtensionCop}"
+        "${PerTenantExtensionCop}",
+        "${analyzerFolder}BusinessCentral.LinterCop.dll"
     ],
     "al.ruleSetPath": ".codeanalysis/lider.ruleset.json"
 }
