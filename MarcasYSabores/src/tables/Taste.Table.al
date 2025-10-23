@@ -4,44 +4,41 @@ table 50100 Taste
 
     fields
     {
-        field(1; MyField; Integer)
+        field(1; Code; Code[20])
         {
-            DataClassification = ToBeClassified;
+            DataClassification = CustomerContent;
+            Caption = 'Code';
+            // add a trigger to convert to uppercase when the value is validated
+            trigger OnValidate()
+            begin
+                Code := UpperCase(Code);  // Convierte automáticamente a mayúsculas
+            end;
 
         }
+        field(2; Description; Text[100])
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Description';
+        }
+        field(3; "Product Count"; Integer)
+        {
+            Caption = 'Taste Products Count';
+            FieldClass = FlowField;
+            CalcFormula = count(Item where("Taste" = field(Code)));
+            Editable = false;
+        }
     }
-
     keys
     {
-        key(Key1; MyField)
+        key(PK; Code)
         {
             Clustered = true;
         }
     }
-
+    //visual effects
     fieldgroups
     {
-        // Add changes to field groups here
+        fieldgroup(DropDown; Code, Description) { }
+        fieldgroup(Brick; Code, Description) { }
     }
-
-    trigger OnInsert()
-    begin
-
-    end;
-
-    trigger OnModify()
-    begin
-
-    end;
-
-    trigger OnDelete()
-    begin
-
-    end;
-
-    trigger OnRename()
-    begin
-
-    end;
-
 }
