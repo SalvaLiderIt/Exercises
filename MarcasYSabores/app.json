@@ -3,8 +3,8 @@
   "name": "MarcasYSabores",
   "publisher": "Default Publisher",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "brief": "First Exercise Extension",
+  "description": "This is the first exercise for learning AL.",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "28.0.0.0",
+  "application": "1.0.0.0",
   "idRanges": [
     {
       "from": 50100,
@@ -25,8 +25,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "17.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+  "runtime": "15.2",
+  "features": ["TranslationFile"],
+  "suppressWarnings": ["AS0051","AS0052","AS0084"]
 }
