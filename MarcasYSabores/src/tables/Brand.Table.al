@@ -1,4 +1,4 @@
-table 50101 Marca
+table 50101 Brand
 {
     DataClassification = ToBeClassified;
 
@@ -23,9 +23,6 @@ table 50101 Marca
     {
         // Add changes to field groups here
     }
-
-    var
-        myInt: Integer;
 
     trigger OnInsert()
     begin

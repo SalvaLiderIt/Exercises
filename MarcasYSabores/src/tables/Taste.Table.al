@@ -1,8 +1,6 @@
-table 50100 Sabor
+table 50100 Taste
 {
     DataClassification = ToBeClassified;
-    Permissions =
-        tabledata Sabor = RIMD;
 
     fields
     {
@@ -25,9 +23,6 @@ table 50100 Sabor
     {
         // Add changes to field groups here
     }
-
-    var
-        myInt: Integer;
 
     trigger OnInsert()
     begin

@@ -1,23 +1,23 @@
-page 50102 MarcaList
+page 50100 TasteList
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = TableName;
+    SourceTable = Taste;
 
-    layout
-    {
-        area(Content)
+    /*     layout
         {
-            group(GroupName)
+            area(Content)
             {
-                field(Name; NameSource)
+                group(GroupName)
                 {
+                    field(Name; NameSource)
+                    {
 
+                    }
                 }
             }
-        }
-    }
+        } */
 
     actions
     {
@@ -34,6 +34,4 @@ page 50102 MarcaList
         }
     }
 
-    var
-        myInt: Integer;
 }

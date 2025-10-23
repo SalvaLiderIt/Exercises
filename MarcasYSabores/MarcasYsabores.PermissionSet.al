@@ -5,14 +5,14 @@ permissionset 50100 "MarcasYsabores"
     Caption = 'All the permissions for Brand & Taste';
 
     Permissions =
-        // Tablas
-        tabledata Sabor = RIMD;
-
-    // Aquí agregarás permisos para futuras tablas:
-    // tabledata "Nombre Tabla" = RIMD;
-
-    // Para páginas (cuando las crees):
-    // page "Nombre Página" = X;
+        // tables
+        tabledata Taste = RIMD,
+        tabledata Brand = RIMD,
+        // pages
+        page BrandCard = X,
+        page BrandList = X,
+        page TasteCard = X,
+        page TasteList = X;
 
     // Para reports (cuando los crees):
     // report "Nombre Report" = X;

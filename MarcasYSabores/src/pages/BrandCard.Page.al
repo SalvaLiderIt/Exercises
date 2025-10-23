@@ -1,11 +1,11 @@
-page 50103 MarcaCard
+page 50103 BrandCard
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = TableName;
+    SourceTable = Brand;
 
-    layout
+    /*layout
     {
         area(Content)
         {
@@ -18,7 +18,7 @@ page 50103 MarcaCard
             }
         }
     }
-
+*/
     actions
     {
         area(Processing)
@@ -33,7 +33,4 @@ page 50103 MarcaCard
             }
         }
     }
-
-    var
-        myInt: Integer;
 }

@@ -1,23 +1,23 @@
-page 50100 SaborList
+page 50101 TasteCard
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = TableName;
+    SourceTable = Taste;
 
-    layout
-    {
-        area(Content)
-        {
-            group(GroupName)
-            {
-                field(Name; NameSource)
-                {
+    /*   layout
+      {
+          area(Content)
+          {
+              group(GroupName)
+              {
+                  field(Name; NameSource)
+                  {
 
-                }
-            }
-        }
-    }
+                  }
+              }
+          }
+      } */
 
     actions
     {
@@ -34,6 +34,4 @@ page 50100 SaborList
         }
     }
 
-    var
-        myInt: Integer;
 }

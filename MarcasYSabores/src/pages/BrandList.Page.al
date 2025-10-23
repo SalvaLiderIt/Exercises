@@ -1,23 +1,23 @@
-page 50101 SaborCard
+page 50102 BrandList
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = TableName;
+    SourceTable = Brand;
 
-    layout
-    {
-        area(Content)
-        {
-            group(GroupName)
-            {
-                field(Name; NameSource)
-                {
+    /*  layout
+     {
+         area(Content)
+         {
+             group(GroupName)
+             {
+                 field(Name; NameSource)
+                 {
 
-                }
-            }
-        }
-    }
+                 }
+             }
+         }
+     } */
 
     actions
     {
@@ -34,6 +34,4 @@ page 50101 SaborCard
         }
     }
 
-    var
-        myInt: Integer;
 }
