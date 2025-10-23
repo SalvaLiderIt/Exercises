@@ -18,35 +18,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Taste - Field Product Count - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1156934111 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 744095695 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code of the taste.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TasteList - Control Code - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste List - Control Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1156934111 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 744095695 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TasteList - Control Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste List - Control Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1156934111 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 744095695 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description of the taste.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TasteList - Control Description - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste List - Control Description - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1156934111 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 744095695 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taste Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TasteList - Control Description - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste List - Control Description - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1156934111 - Control 3066410430 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 744095695 - Control 3066410430 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View products with this flavor</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TasteList - Control Product Count Display - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste List - Control Product Count Display - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1156934111 - Control 3066410430 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 744095695 - Control 3066410430 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taste Products</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page TasteList - Control Product Count Display - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste List - Control Product Count Display - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2876958691 - Control 1391920857 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Select the taste of the item</source>
@@ -57,6 +57,21 @@
           <source>Taste</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Taste - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 3219477003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Description of the taste-Flavour</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Taste Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 3219477003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Taste Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Taste Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817553838 - Field 3219477003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Taste Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Taste Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3817553838 - Field 2198571912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Taste</source>

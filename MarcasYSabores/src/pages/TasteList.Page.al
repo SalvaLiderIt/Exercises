@@ -1,4 +1,4 @@
-page 50100 TasteList
+page 50100 "Taste List"
 {
     PageType = List;
     ApplicationArea = All;
