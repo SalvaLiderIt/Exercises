@@ -1,11 +1,11 @@
-page 50103 BrandCard
+/* page 50103 BrandCard
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Brand;
 
-    /*layout
+    layout
     {
         area(Content)
         {
@@ -18,7 +18,7 @@ page 50103 BrandCard
             }
         }
     }
-*/
+
     actions
     {
         area(Processing)
@@ -34,3 +34,4 @@ page 50103 BrandCard
         }
     }
 }
+ */

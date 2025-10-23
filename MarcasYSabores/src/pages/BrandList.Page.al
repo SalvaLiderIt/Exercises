@@ -1,11 +1,11 @@
-page 50102 BrandList
+/* page 50102 BrandList
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Brand;
 
-    /*  layout
+    layout
      {
          area(Content)
          {
@@ -17,7 +17,7 @@ page 50102 BrandList
                  }
              }
          }
-     } */
+     }
 
     actions
     {
@@ -34,4 +34,4 @@ page 50102 BrandList
         }
     }
 
-}
+} */

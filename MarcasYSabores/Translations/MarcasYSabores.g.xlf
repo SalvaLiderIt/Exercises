@@ -8,10 +8,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field MyField - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1391920857 - Field 1296262074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>MyField</source>
+        <trans-unit id="Table 1391920857 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Taste - Field MyField - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Taste - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1391920857 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Taste - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1391920857 - Field 862053812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taste Products Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Taste - Field Product Count - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2876958691 - Control 1391920857 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Select the taste of the item</source>

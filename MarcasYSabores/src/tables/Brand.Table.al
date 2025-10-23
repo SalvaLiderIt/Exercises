@@ -1,4 +1,4 @@
-table 50101 Brand
+/* table 50101 Brand
 {
     DataClassification = ToBeClassified;
 
@@ -44,4 +44,4 @@ table 50101 Brand
 
     end;
 
-}
+} */
