@@ -6,13 +6,13 @@ permissionset 50100 "MarcasYsabores"
 
     Permissions =
         // tables
-        tabledata Taste = RIMD,
-        /* tabledata Brand = RIMD, */
-        // pages
-        /*         page BrandCard = X,
-                page BrandList = X, */
-        page TasteCard = X,
-        page TasteList = X;
+        tabledata Taste = RIMD;
+    /* tabledata Brand = RIMD, */
+    // pages
+    /*         page BrandCard = X,
+            page BrandList = X, */
+    /* page TasteCard = X,
+    page TasteList = X; */
 
     // Para reports (cuando los crees):
     // report "Nombre Report" = X;

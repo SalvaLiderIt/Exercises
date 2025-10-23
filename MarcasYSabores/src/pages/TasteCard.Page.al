@@ -1,11 +1,11 @@
-page 50101 TasteCard
+/* page 50101 TasteCard
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Taste;
 
-    /*   layout
+       layout
       {
           area(Content)
           {
@@ -17,7 +17,7 @@ page 50101 TasteCard
                   }
               }
           }
-      } */
+      } 
 
     actions
     {
@@ -34,4 +34,4 @@ page 50101 TasteCard
         }
     }
 
-}
+} */

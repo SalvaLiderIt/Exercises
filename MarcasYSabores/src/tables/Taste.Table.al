@@ -41,4 +41,13 @@ table 50100 Taste
         fieldgroup(DropDown; Code, Description) { }
         fieldgroup(Brick; Code, Description) { }
     }
+
+    procedure GetProductCountDisplay(): Text[10]
+    begin
+        CalcFields("Product Count");
+        if "Product Count" = 0 then
+            exit('-')
+        else
+            exit(Format("Product Count"));
+    end;
 }
