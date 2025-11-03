@@ -23,7 +23,26 @@ pageextension 50100 ItemCard extends "Item Card"
 
     actions
     {
-        // Add changes to page actions here
+        addafter(Functions)
+        {
+            action(TasteList)
+            {
+                ApplicationArea = All;
+                Caption = 'Ver Taste List';
+                Image = List;
+                ToolTip = 'Opens the Taste List page.';
+                // Estas dos líneas me permiten mostrar el botón en la barra de acciones principal
+                Promoted = true;
+                PromotedCategory = Process;
+
+                trigger OnAction()
+                var
+                begin
+                    // Abre la página Taste List
+                    PAGE.Run(PAGE::"Taste List");
+                end;
+            }
+        }
     }
 
 }
