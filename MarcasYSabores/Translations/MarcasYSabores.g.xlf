@@ -24,7 +24,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Blocked - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Table 3011597373 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>tumae</source>
+          <source>Block</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Blocked - Property Caption</note>
         </trans-unit>

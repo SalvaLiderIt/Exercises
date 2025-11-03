@@ -42,14 +42,18 @@ table 50102 Brand
             ToolTip = 'Specifies whether the brand is blocked.';
             AllowInCustomizations = Always;
             Editable = true;
+            trigger OnValidate()
+            begin
+                if Blocked then
+                    "Blockage Expiration" := CalcDate('<CM>', Today()) //CM = current month end last day
+                else
+                    "Blockage Expiration" := 0D; // Si desbloqueas, borra la fecha
+            end;
         }
         field(5; "Blockage Expiration"; Date)
         {
             Caption = 'Blockage Expiration';
             ToolTip = 'Specifies the expiration date of the blockage.';
-            FieldClass = FlowField;
-            AllowInCustomizations = Always;
-            //CalcFormula = "Blocked" ? "Blockage Expiration" : 0D;
             Editable = false;
         }
     }
