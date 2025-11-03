@@ -15,7 +15,18 @@ pageextension 50100 ItemCard extends "Item Card"
                 ApplicationArea = All;
                 Caption = 'Taste Description';
                 Editable = false;  // Confirmamos que no es editable
-                ToolTip = 'Specifies the description of the taste-flavour.';
+            }
+            field("Brand"; Rec."Brand.Code")
+            {
+                ApplicationArea = All;
+                Caption = 'Brand';
+                ToolTip = 'Specifies Select the brand of the item.';
+            }
+            field("Brand Description"; Rec."Brand Description")
+            {
+                ApplicationArea = All;
+                Caption = 'Brand Description';
+                Editable = false;  // Confirmamos que no es editable
             }
         }
         // Add changes to page layout here
@@ -40,6 +51,23 @@ pageextension 50100 ItemCard extends "Item Card"
                 begin
                     // Abre la página Taste List
                     PAGE.Run(PAGE::"Taste List");
+                end;
+            }
+            action(BrandList)
+            {
+                ApplicationArea = All;
+                Caption = 'Ver Brand List';
+                Image = List;
+                ToolTip = 'Opens the Brand List page.';
+                // Estas dos líneas me permiten mostrar el botón en la barra de acciones principal
+                Promoted = true;
+                PromotedCategory = Process;
+
+                trigger OnAction()
+                var
+                begin
+                    // Abre la página Brand List
+                    PAGE.Run(PAGE::"Brand List");
                 end;
             }
         }

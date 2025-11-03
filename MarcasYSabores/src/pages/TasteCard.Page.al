@@ -1,37 +1,43 @@
-/* page 50101 TasteCard
+/* page 50102 "Brand List"
 {
-    PageType = Card;
+    PageType = List;
     ApplicationArea = All;
-    UsageCategory = Administration;
-    SourceTable = Taste;
+    UsageCategory = Lists;
+    SourceTable = Brand;
+    Caption = 'Brand List';
 
-       layout
-      {
-          area(Content)
-          {
-              group(GroupName)
-              {
-                  field(Name; NameSource)
-                  {
-
-                  }
-              }
-          }
-      } 
-
-    actions
+    layout
     {
-        area(Processing)
+        area(Content)
         {
-            action(ActionName)
+            repeater(Group)
             {
+                field(Code; Rec.Code)
+                {
 
-                trigger OnAction()
-                begin
+                    Caption = 'Code';
+                    ToolTip = 'Specifies Code of the brand.';
+                }
+                field(Description; Rec.Description)
+                {
 
-                end;
+                    Caption = 'Brand Description';
+                    ToolTip = 'Specifies Description of the brand.';
+                }
+                field("Product Count Display"; Rec.GetProductCountDisplay())
+                {
+                    Caption = 'Brand Products';
+                    ToolTip = 'Specifies View products with this brand.';
+
+                    trigger OnDrillDown()
+                    var
+                        Item: Record Item;
+                    begin
+                        Item.SetRange("Taste.Code", Rec.Code);
+                        Page.Run(Page::"Item List", Item);
+                    end;
+                }
             }
         }
     }
-
 } */

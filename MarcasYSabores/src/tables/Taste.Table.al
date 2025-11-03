@@ -2,6 +2,8 @@ table 50100 Taste
 {
     DataClassification = ToBeClassified;
     Caption = 'Taste';
+    LookupPageId = "Taste List";
+    DrillDownPageId = "Taste List";
 
 
     fields

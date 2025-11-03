@@ -8,10 +8,13 @@ permissionset 50100 "MarcasYsabores"
         // tables
         table Taste = X,
         table Item = X,
+        table Brand = X,
         tabledata Taste = RIMD,
         tabledata Item = RIMD,
-        page "Taste List" = X;
-    /* tabledata Brand = RIMD, */
+        tabledata Brand = RIMD,
+        // pages
+        page "Taste List" = X,
+        page "Brand List" = X;
     // pages
     /*         page BrandCard = X,
             page BrandList = X, */

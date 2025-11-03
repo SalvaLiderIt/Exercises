@@ -3,6 +3,41 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="MarcasYSabores">
     <body>
       <group id="body">
+        <trans-unit id="Table 3011597373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Brand</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Code of the brand.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description of the brand.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 862053812 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Number of products with this brand.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Product Count - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 862053812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Brand Products Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Product Count - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1391920857 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taste</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -37,6 +72,36 @@
           <source>Taste Products Count</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Taste - Field Product Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650159571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Brand List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Brand List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650159571 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Brand List - Control Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650159571 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Description of the brand.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Brand List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650159571 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Brand Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Brand List - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2650159571 - Control 3066410430 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies View products with this brand.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Brand List - Control Product Count Display - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2650159571 - Control 3066410430 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Brand Products</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Brand List - Control Product Count Display - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 744095695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taste List</source>
@@ -73,6 +138,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Taste List - Control Product Count Display - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Action 1859450179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Opens the Brand List page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Action BrandList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Action 1859450179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Ver Brand List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Action BrandList - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2876958691 - Action 1156934111 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Opens the Taste List page.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -82,6 +157,21 @@
           <source>Ver Taste List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Action TasteList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 3011597373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Specifies Select the brand of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Brand - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 3011597373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Brand</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Brand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 1741728871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Brand Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Brand Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2876958691 - Control 1391920857 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Specifies Select the taste of the item.</source>
@@ -93,20 +183,45 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Taste - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2876958691 - Control 3219477003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
-          <source>Specifies the description of the taste-flavour.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Taste Description - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="PageExtension 2876958691 - Control 3219477003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Taste Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Taste Description - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3817553838 - Field 1741728871 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the description of the brand.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Brand Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817553838 - Field 1741728871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Brand Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Brand Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817553838 - Field 1483611788 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the brand of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Brand.Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817553838 - Field 1483611788 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Brand</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Brand.Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817553838 - Field 3219477003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the description of the taste-flavour.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Taste Description - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3817553838 - Field 3219477003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Taste Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Taste Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817553838 - Field 2198571912 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the taste of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Taste.Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 3817553838 - Field 2198571912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Taste</source>
