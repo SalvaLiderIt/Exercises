@@ -2,17 +2,21 @@
 permissionset 50100 "MarcasYsabores"
 {
     Assignable = true;
-    Caption = 'All the permissions for Brand & Taste';
+    Caption = 'Permissions', MaxLength = 30;
 
     Permissions =
         // tables
-        tabledata Taste = RIMD;
+        table Taste = X,
+        table Item = X,
+        tabledata Taste = RIMD,
+        tabledata Item = RIMD,
+        page "Taste List" = X;
     /* tabledata Brand = RIMD, */
     // pages
     /*         page BrandCard = X,
             page BrandList = X, */
-    /* page TasteCard = X,
-    page TasteList = X; */
+    /*  page "Taste Card" = X; */
+
 
     // Para reports (cuando los crees):
     // report "Nombre Report" = X;

@@ -8,14 +8,14 @@ pageextension 50100 ItemCard extends "Item Card"
             {
                 ApplicationArea = All;
                 Caption = 'Taste';
-                ToolTip = 'Select the taste of the item';
+                ToolTip = 'Specifies Select the taste of the item.';
             }
             field("Taste Description"; Rec."Taste Description")
             {
                 ApplicationArea = All;
                 Caption = 'Taste Description';
                 Editable = false;  // Confirmamos que no es editable
-                ToolTip = 'Description of the taste-Flavour';
+                ToolTip = 'Specifies the description of the taste-flavour.';
             }
         }
         // Add changes to page layout here

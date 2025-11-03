@@ -4,6 +4,7 @@ page 50100 "Taste List"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = Taste;
+    Caption = 'Taste List';
 
     layout
     {
@@ -13,21 +14,20 @@ page 50100 "Taste List"
             {
                 field(Code; Rec.Code)
                 {
-                    ApplicationArea = All;
+
                     Caption = 'Code';
-                    ToolTip = 'Code of the taste.';
+                    ToolTip = 'Specifies Code of the taste.';
                 }
                 field(Description; Rec.Description)
                 {
-                    ApplicationArea = All;
+
                     Caption = 'Taste Description';
-                    ToolTip = 'Description of the taste.';
+                    ToolTip = 'Specifies Description of the taste.';
                 }
                 field("Product Count Display"; Rec.GetProductCountDisplay())
                 {
-                    ApplicationArea = All;
                     Caption = 'Taste Products';
-                    ToolTip = 'View products with this flavor';
+                    ToolTip = 'Specifies View products with this flavor.';
 
                     trigger OnDrillDown()
                     var

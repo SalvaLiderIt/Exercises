@@ -1,6 +1,8 @@
 table 50100 Taste
 {
     DataClassification = ToBeClassified;
+    Caption = 'Taste';
+
 
     fields
     {
@@ -8,6 +10,8 @@ table 50100 Taste
         {
             DataClassification = CustomerContent;
             Caption = 'Code';
+            ToolTip = 'Specifies Code of the taste-flavour.';
+            NotBlank = true;
             // add a trigger to convert to uppercase when the value is validated
             trigger OnValidate()
             begin
@@ -19,11 +23,14 @@ table 50100 Taste
         {
             DataClassification = CustomerContent;
             Caption = 'Description';
+            ToolTip = 'Description of the taste-flavour.';
         }
         field(3; "Product Count"; Integer)
         {
             Caption = 'Taste Products Count';
+            ToolTip = 'Specifies Number of products with this taste.';
             FieldClass = FlowField;
+            AllowInCustomizations = Always;
             CalcFormula = count(Item where("Taste.Code" = field(Code)));
             Editable = false;
         }

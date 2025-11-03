@@ -18,6 +18,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Taste - Field Product Count - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 744095695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taste List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste List - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 744095695 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code of the taste.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -79,7 +84,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Taste.Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 3822306479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>All the permissions for Brand &amp; Taste</source>
+          <source>permissions Brand&amp;Taste</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet MarcasYsabores - Property Caption</note>
         </trans-unit>

@@ -4,5 +4,6 @@ enum 50100 Nutriscore
 
     value(0; MyValue)
     {
+        Caption = 'My Value';
     }
 }
