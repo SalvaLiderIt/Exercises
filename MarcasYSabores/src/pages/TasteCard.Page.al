@@ -1,43 +1,33 @@
-/* page 50102 "Brand List"
+page 50101 "Taste Card"
 {
-    PageType = List;
+    PageType = Card;
     ApplicationArea = All;
-    UsageCategory = Lists;
-    SourceTable = Brand;
-    Caption = 'Brand List';
+    UsageCategory = Administration;
+    SourceTable = Taste;
+    Caption = 'Taste Card';
 
     layout
     {
         area(Content)
         {
-            repeater(Group)
+            group(FlavourCard)
             {
+                Caption = 'Flavour Card';
                 field(Code; Rec.Code)
                 {
 
-                    Caption = 'Code';
-                    ToolTip = 'Specifies Code of the brand.';
                 }
+
                 field(Description; Rec.Description)
                 {
 
-                    Caption = 'Brand Description';
-                    ToolTip = 'Specifies Description of the brand.';
                 }
-                field("Product Count Display"; Rec.GetProductCountDisplay())
+                field(ProductCountDisplay; Rec.GetProductCountDisplay())
                 {
-                    Caption = 'Brand Products';
-                    ToolTip = 'Specifies View products with this brand.';
-
-                    trigger OnDrillDown()
-                    var
-                        Item: Record Item;
-                    begin
-                        Item.SetRange("Taste.Code", Rec.Code);
-                        Page.Run(Page::"Item List", Item);
-                    end;
+                    Caption = 'Taste Products Count';
+                    ToolTip = 'Specifies Number of products with this taste.';
                 }
             }
         }
     }
-} */
+}

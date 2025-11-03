@@ -8,6 +8,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 639662907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the expiration date of the blockage.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Blockage Expiration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 639662907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blockage Expiration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Blockage Expiration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 3543129988 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the brand is blocked.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Blocked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3011597373 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>tumae</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Brand - Field Blocked - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3011597373 - Field 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Code of the brand.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -73,6 +93,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Taste - Field Product Count - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3164131905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Brand Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Brand Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3164131905 - Control 3441967249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Brand Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Brand Card - Control BrandCard - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2650159571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Brand List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -102,6 +132,26 @@
           <source>Brand Products</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Brand List - Control Product Count Display - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3223266757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taste Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3223266757 - Control 2054176611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Flavour Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste Card - Control FlavourCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3223266757 - Control 998375574 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Number of products with this taste.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste Card - Control ProductCountDisplay - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3223266757 - Control 998375574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taste Products Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Taste Card - Control ProductCountDisplay - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 744095695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Taste List</source>
@@ -157,6 +207,11 @@
           <source>Ver Taste List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Action TasteList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 1675583375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Marcas y Sabores</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control MarcasYSabores - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2876958691 - Control 3011597373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Specifies Select the brand of the item.</source>

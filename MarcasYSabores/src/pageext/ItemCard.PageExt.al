@@ -4,29 +4,34 @@ pageextension 50100 ItemCard extends "Item Card"
     {
         addlast(Item)
         {
-            field("Taste"; Rec."Taste.Code")
+            group(MarcasYSabores)
             {
-                ApplicationArea = All;
-                Caption = 'Taste';
-                ToolTip = 'Specifies Select the taste of the item.';
-            }
-            field("Taste Description"; Rec."Taste Description")
-            {
-                ApplicationArea = All;
-                Caption = 'Taste Description';
-                Editable = false;  // Confirmamos que no es editable
-            }
-            field("Brand"; Rec."Brand.Code")
-            {
-                ApplicationArea = All;
-                Caption = 'Brand';
-                ToolTip = 'Specifies Select the brand of the item.';
-            }
-            field("Brand Description"; Rec."Brand Description")
-            {
-                ApplicationArea = All;
-                Caption = 'Brand Description';
-                Editable = false;  // Confirmamos que no es editable
+                Caption = 'Marcas y Sabores';
+
+                field("Taste"; Rec."Taste.Code")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Taste';
+                    ToolTip = 'Specifies Select the taste of the item.';
+                }
+                field("Taste Description"; Rec."Taste Description")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Taste Description';
+                    Editable = false;  // Confirmamos que no es editable
+                }
+                field("Brand"; Rec."Brand.Code")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Brand';
+                    ToolTip = 'Specifies Select the brand of the item.';
+                }
+                field("Brand Description"; Rec."Brand Description")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Brand Description';
+                    Editable = false;  // Confirmamos que no es editable
+                }
             }
         }
         // Add changes to page layout here

@@ -36,6 +36,22 @@ table 50102 Brand
             CalcFormula = count(Item where("Brand.Code" = field(Code)));
             Editable = false;
         }
+        field(4; "Blocked"; Boolean)
+        {
+            Caption = 'Block';
+            ToolTip = 'Specifies whether the brand is blocked.';
+            AllowInCustomizations = Always;
+            Editable = true;
+        }
+        field(5; "Blockage Expiration"; Date)
+        {
+            Caption = 'Blockage Expiration';
+            ToolTip = 'Specifies the expiration date of the blockage.';
+            FieldClass = FlowField;
+            AllowInCustomizations = Always;
+            //CalcFormula = "Blocked" ? "Blockage Expiration" : 0D;
+            Editable = false;
+        }
     }
     keys
     {

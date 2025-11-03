@@ -14,7 +14,9 @@ permissionset 50100 "MarcasYsabores"
         tabledata Brand = RIMD,
         // pages
         page "Taste List" = X,
-        page "Brand List" = X;
+        page "Brand List" = X,
+        page "Taste Card" = X,
+        page "Brand Card" = X;
     // pages
     /*         page BrandCard = X,
             page BrandList = X, */
