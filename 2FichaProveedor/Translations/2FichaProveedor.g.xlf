@@ -2,7 +2,118 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="en-US" original="2FichaProveedor">
     <body>
-      <group id="body" />
+      <group id="body">
+        <trans-unit id="Table 3416110202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Master Table Supplier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 659317815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the activity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Activity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 659317815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Activity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 2662995888 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sector.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Sector - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 2662995888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sector</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Sector - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3416110202 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Master Table Supplier - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3505762506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Master Table Supplier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MasterTableSupplier - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3505762506 - Control 1636800651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Master Table Supplier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MasterTableSupplier - Control Maderas Unidas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3505762506 - Control 659317815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MasterTableSupplier - Control Activity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3505762506 - Control 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MasterTableSupplier - Control Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3505762506 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MasterTableSupplier - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3505762506 - Control 2662995888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sector</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MasterTableSupplier - Control Sector - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3505762506 - Control 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MasterTableSupplier - Control Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1521390442 - EnumValue 659317815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Master Table Supplier Type - EnumValue Activity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1521390442 - EnumValue 2662995888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sector</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Master Table Supplier Type - EnumValue Sector - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1521390442 - EnumValue 55222080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Supplier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Master Table Supplier Type - EnumValue Supplier - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 213507007 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permissions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet 2Ficha Proveedor - Property Caption</note>
+        </trans-unit>
+      </group>
     </body>
   </file>
 </xliff>

@@ -23,12 +23,12 @@ table 50100 "Master Table Supplier"
             Caption = 'Description';
             ToolTip = 'Specifies the description.';
         }
-        field(4; Sector; Code[10])
+        field(4; Sector; Code[20])
         {
             Caption = 'Sector';
             ToolTip = 'Specifies the sector.';
         }
-        field(5; Activity; Code[10])
+        field(5; Activity; Code[20])
         {
             Caption = 'Activity';
             ToolTip = 'Specifies the activity.';

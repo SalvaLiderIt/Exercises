@@ -4,12 +4,13 @@ page 50100 MasterTableSupplier
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = "Master Table Supplier";
+    Caption = 'Master Table Supplier';
 
     layout
     {
         area(Content)
         {
-            group(GroupName)
+            repeater("Maderas Unidas")
             {
                 Caption = 'Master Table Supplier';
                 field(Type; Rec.Type)
@@ -35,7 +36,7 @@ page 50100 MasterTableSupplier
             }
         }
     }
-    actions
+    /* actions
     {
         area(Processing)
         {
@@ -49,5 +50,5 @@ page 50100 MasterTableSupplier
             }
         }
     }
-
+ */
 }
