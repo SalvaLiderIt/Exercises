@@ -253,6 +253,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Taste Description - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 505412225 - Control 2253436595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 12980819">
+          <source>Blockages</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SOActivities - Control Blockages - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 505412225 - Control 49728908 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 12980819">
+          <source>Specifies the number of blocked brands.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SOActivities - Control Blocked Brands - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 505412225 - Control 49728908 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 12980819">
+          <source>Blocked Brands</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SOActivities - Control Blocked Brands - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3817553838 - Field 1741728871 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Specifies the description of the brand.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -302,6 +317,16 @@
           <source>Taste</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Taste.Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3337779182 - Field 49728908 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 388441093">
+          <source>Specifies the blocked brands of the sales cue.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCueExt - Field Blocked Brands - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3337779182 - Field 49728908 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 388441093">
+          <source>Blocked Brands</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCueExt - Field Blocked Brands - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3912556904 - EnumValue 3939861283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>A</source>
