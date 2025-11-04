@@ -32,9 +32,15 @@ pageextension 50100 ItemCard extends "Item Card"
                     Caption = 'Brand Description';
                     Editable = false;  // Confirmamos que no es editable
                 }
+                field("Nutriscore"; Rec."Nutriscore")
+                {
+                    ApplicationArea = All;
+                    Caption = 'Nutriscore';
+                    ToolTip = 'Specifies Select the nutriscore of the item.';
+                }
             }
+            // Add changes to page layout here
         }
-        // Add changes to page layout here
     }
 
     actions

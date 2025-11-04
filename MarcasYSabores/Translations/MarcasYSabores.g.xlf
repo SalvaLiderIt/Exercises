@@ -228,6 +228,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Brand Description - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 3912556904 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Specifies Select the nutriscore of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Nutriscore - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 3912556904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Nutriscore</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Nutriscore - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2876958691 - Control 1391920857 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Specifies Select the taste of the item.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -263,6 +273,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Brand.Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3817553838 - Field 3912556904 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the nutriscore of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Nutriscore - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817553838 - Field 3912556904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Nutriscore</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Nutriscore - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3817553838 - Field 3219477003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Specifies the description of the taste-flavour.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -283,10 +303,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Taste.Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 3912556904 - EnumValue 1445202145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>My Value</source>
+        <trans-unit id="Enum 3912556904 - EnumValue 3939861283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Nutriscore - EnumValue MyValue - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nutriscore - EnumValue A - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3912556904 - EnumValue 1557983838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>B</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nutriscore - EnumValue B - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3912556904 - EnumValue 920287221 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nutriscore - EnumValue C - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3912556904 - EnumValue 2026771432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>D</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nutriscore - EnumValue D - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3912556904 - EnumValue 1389074815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nutriscore - EnumValue E - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 3822306479 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Permissions</source>

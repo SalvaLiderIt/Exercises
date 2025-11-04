@@ -35,6 +35,13 @@ tableextension 50100 ItemTableExt extends Item
             DataClassification = CustomerContent;
             AllowInCustomizations = Always;
         }
+        field(50104; "Nutriscore"; Enum Nutriscore)
+        {
+            Caption = 'Nutriscore';
+            ToolTip = 'Specifies the nutriscore of the item.';
+            DataClassification = CustomerContent;
+            AllowInCustomizations = Always;
+        }
     }
 
 
