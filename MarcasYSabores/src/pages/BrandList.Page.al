@@ -4,6 +4,7 @@ page 50102 "Brand List"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = Brand;
+    CardPageId = "Brand Card";
     Caption = 'Brand List';
 
     layout

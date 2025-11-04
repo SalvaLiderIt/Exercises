@@ -4,6 +4,7 @@ page 50100 "Taste List"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = Taste;
+    CardPageId = "Taste Card"; //supuestamente eso permite abrir directamente la card desde la lista
     Caption = 'Taste List';
 
     layout
