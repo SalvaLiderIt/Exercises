@@ -86,8 +86,11 @@ pageextension 50100 VendorCardExt extends "Vendor Card"
                 PromotedOnly = true;
 
                 trigger OnAction()
+                var
+                    SupplierRec: Record "Master Table Supplier";
                 begin
-                    PAGE.Run(PAGE::"MasterTableSupplier");
+                    SupplierRec.SetRange(Type, "Master Table Supplier Type"::Supplier);
+                    PAGE.Run(PAGE::"MasterTableSupplier", SupplierRec);
                 end;
             }
             action("Sector Types")
@@ -101,8 +104,11 @@ pageextension 50100 VendorCardExt extends "Vendor Card"
                 PromotedOnly = true;
 
                 trigger OnAction()
+                var
+                    SectorRec: Record "Master Table Supplier";
                 begin
-                    PAGE.Run(PAGE::"MasterTableSupplier");
+                    SectorRec.SetRange(Type, "Master Table Supplier Type"::Sector);
+                    PAGE.Run(PAGE::"MasterTableSupplier", SectorRec);
                 end;
             }
             action("Activity Types")
@@ -116,8 +122,11 @@ pageextension 50100 VendorCardExt extends "Vendor Card"
                 PromotedOnly = true;
 
                 trigger OnAction()
+                var
+                    ActivityRec: Record "Master Table Supplier";
                 begin
-                    PAGE.Run(PAGE::"MasterTableSupplier");
+                    ActivityRec.SetRange(Type, "Master Table Supplier Type"::Activity);
+                    PAGE.Run(PAGE::"MasterTableSupplier", ActivityRec);
                 end;
             }
         }
