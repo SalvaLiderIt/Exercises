@@ -5,15 +5,21 @@ permissionset 50100 "3CustomerPermissions"
 
     Permissions =
     // tables
-    //table Taste = X,
+    table CustomerActivity = X,
     table CustomerType = X,
-    //table Brand = X,
-    //tabledata RIMD = X,
+    table CustomerSector = X,
+    table CustomerCategory = X,
+    tabledata CustomerActivity = RIMD,
     //tabledata Taste = RIMD,
      tabledata CustomerType = RIMD,
-    //tabledata Brand = RIMD,
+    tabledata CustomerSector = RIMD,
+    tabledata CustomerCategory = RIMD,
     // pages
+    page CustomerSectorList = X,
+    page CustomerActivityList = X,
+    page CustomerCategoryList = X,
     page CustomerTypeList = X;
+
 
 
 }
