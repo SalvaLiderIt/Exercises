@@ -15,7 +15,7 @@ tableextension 50100 VendorExt extends Vendor
             ToolTip = 'Specifies the supplier sector.';
             AllowInCustomizations = Always;
             FieldClass = FlowField;
-            CalcFormula = lookup("Master Table Supplier".Description where(Code = field("Supplier Type Code")));
+            CalcFormula = lookup("Master Table Supplier".Description where(Code = field("Sector Code")));
             Editable = false;
         }
         field(50104; "Sector Code"; Code[20])
@@ -47,7 +47,7 @@ tableextension 50100 VendorExt extends Vendor
             ToolTip = 'Specifies the activity text.';
             AllowInCustomizations = Always;
             FieldClass = FlowField;
-            CalcFormula = lookup("Master Table Supplier".Activity where(Code = field("Activity Code")));
+            CalcFormula = lookup("Master Table Supplier".Description where(Code = field("Activity Code")));
             Editable = false;
         }
         field(50108; "Chain Custody Subject"; Boolean)

@@ -1,6 +1,6 @@
 enum 50101 "Vendor Certification"
 {
-    Extensible = false;
+    Extensible = true;
 
     value(0; " ")
     {

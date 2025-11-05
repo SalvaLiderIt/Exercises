@@ -16,6 +16,7 @@ table 50100 "Master Table Supplier"
         field(2; Code; Code[20])
         {
             Caption = 'Code';
+            NotBlank = true;
             ToolTip = 'Specifies the code.';
         }
         field(3; Description; Text[100])
@@ -32,6 +33,13 @@ table 50100 "Master Table Supplier"
         {
             Caption = 'Activity';
             ToolTip = 'Specifies the activity.';
+        }
+    }
+    keys
+    {
+        key(Key1; Code)
+        {
+            Clustered = true;
         }
     }
 

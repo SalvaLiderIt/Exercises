@@ -9,7 +9,7 @@
             "server": "http://localhost:8080/BC260/",
             "serverInstance": "BC260",
             "authentication": "Windows",
-            "startupObjectId": 31,
+            "startupObjectId": 27,
             "startupObjectType": "Page",
             "breakOnError": "All",
             //"launchBrowser": true,
@@ -17,7 +17,7 @@
             "enableSqlInformationDebugger": true,
             "tenant": "default",
             "usePublicURLFromServer": true,
-            //"schemaUpdateMode": "ForceSync"//probar esta línea para forzar algo si no funciona, NO USAR EN DESARROLLO, BORRA COSAS
+            "schemaUpdateMode": "ForceSync"//probar esta línea para forzar algo si no funciona, NO USAR EN DESARROLLO, BORRA COSAS
         }
     ]
 }
