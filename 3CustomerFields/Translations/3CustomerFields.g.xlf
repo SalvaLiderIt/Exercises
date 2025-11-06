@@ -203,10 +203,45 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control RiskGrantedMUSA - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 2353243635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Route</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control Route - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 3584586890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Sales Zone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control SalesZone - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3532628451 - Control 2767866590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Sector Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control SectorDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 3769954144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Transport Agency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control TransportAgency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3617415722 - Control 526594952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Ejercicio 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Control Ejercicio3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3617415722 - Control 2353243635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Route</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Control Route - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3617415722 - Control 3584586890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Sales Zone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Control SalesZone - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3617415722 - Control 3769954144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Transport Agency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrder - Control TransportAgency - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1713901351 - Field 1415774669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Provides a description of the customer activity.</source>
@@ -298,6 +333,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field RiskGrantedMUSA - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 2353243635 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Specifies the route of the customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Route - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 2353243635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Route</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Route - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 3584586890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Specifies the sales zone of the customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field SalesZone - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 3584586890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Sales Zone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field SalesZone - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1713901351 - Field 2767866590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Provides a description of the customer sector.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -307,6 +362,46 @@
           <source>Sector Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field SectorDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 3769954144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Specifies the transport agency of the customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field TransportAgency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 3769954144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Transport Agency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field TransportAgency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2156531793 - Field 2353243635 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Specifies the route of the customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeader - Field Route - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2156531793 - Field 2353243635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Route</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeader - Field Route - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2156531793 - Field 3584586890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Specifies the sales zone of the customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeader - Field SalesZone - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2156531793 - Field 3584586890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Sales Zone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeader - Field SalesZone - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2156531793 - Field 3769954144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Specifies the transport agency of the customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeader - Field TransportAgency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2156531793 - Field 3769954144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Transport Agency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesHeader - Field TransportAgency - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 3222919257 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Permissions</source>

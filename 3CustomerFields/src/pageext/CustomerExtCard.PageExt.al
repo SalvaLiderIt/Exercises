@@ -78,6 +78,21 @@ pageextension 50100 CustomerExtCard extends "Customer Card"
                     ApplicationArea = All;
                     Caption = 'Exceeded Risk MUSA';
                 }
+                field(SalesZone; Rec.SalesZone)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Sales Zone';
+                }
+                field(Route; Rec.Route)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Route';
+                }
+                field(TransportAgency; Rec.TransportAgency)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Transport Agency';
+                }
             }
         }
     }

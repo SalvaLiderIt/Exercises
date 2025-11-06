@@ -20,7 +20,8 @@ permissionset 50100 "3CustomerPermissions"
     page CustomerSectorList = X,
     page CustomerActivityList = X,
     page CustomerCategoryList = X,
-    page CustomerTypeList = X;
+    page CustomerTypeList = X,
+    codeunit CopyFields = X;
 
 
 
