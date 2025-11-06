@@ -188,6 +188,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control CustomerType - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 2093043870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Exceeded Risk MUSA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control ExceededRiskMUSA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 4146718274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the risk granted in MUSA (0-10).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control RiskGrantedMUSA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 4146718274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Risk Granted MUSA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control RiskGrantedMUSA - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3532628451 - Control 2767866590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Sector Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -262,6 +277,26 @@
           <source>Customer Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field CustomerType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 2093043870 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Specifies the exceeded risk in MUSA.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field ExceededRiskMUSA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 2093043870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Exceeded Risk MUSA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field ExceededRiskMUSA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 4146718274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Specifies the risk granted in MUSA.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field RiskGrantedMUSA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 4146718274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Risk Granted MUSA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field RiskGrantedMUSA - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1713901351 - Field 2767866590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Provides a description of the customer sector.</source>

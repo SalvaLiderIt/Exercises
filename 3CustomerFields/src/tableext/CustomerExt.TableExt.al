@@ -1,4 +1,5 @@
 #pragma warning disable LC0068 //decirle al LinterCop que ignore este warning añadiendo una directiva en el código:
+#pragma warning disable LC0048
 tableextension 50110 CustomerExt extends Customer
 {
     fields
@@ -7,7 +8,6 @@ tableextension 50110 CustomerExt extends Customer
         {
             Caption = 'Customer Type';
             TableRelation = CustomerType;
-            DataClassification = ToBeClassified;
             ToolTip = 'Specifies the type of customer.';
             AllowInCustomizations = Always;
             trigger OnValidate()//trigger para copiar la descripcion automaticamente y mostrarla al seleccionar codigo
@@ -26,7 +26,6 @@ tableextension 50110 CustomerExt extends Customer
         field(50101; CustomerDescription; Text[50])
         {
             Caption = 'Customer Description';
-            DataClassification = ToBeClassified;
             ToolTip = 'Provides a description of the customer type.';
             Editable = false;
             AllowInCustomizations = Always;
@@ -35,7 +34,6 @@ tableextension 50110 CustomerExt extends Customer
         {
             Caption = 'Customer Sector';
             TableRelation = CustomerSector;
-            DataClassification = ToBeClassified;
             ToolTip = 'Specifies the sector of the customer.';
             AllowInCustomizations = Always;
             trigger OnValidate()
@@ -54,7 +52,6 @@ tableextension 50110 CustomerExt extends Customer
         field(50103; SectorDescription; Text[50])
         {
             Caption = 'Sector Description';
-            DataClassification = ToBeClassified;
             ToolTip = 'Provides a description of the customer sector.';
             Editable = false;
             AllowInCustomizations = Always;
@@ -63,7 +60,6 @@ tableextension 50110 CustomerExt extends Customer
         {
             Caption = 'Customer Activity';
             TableRelation = CustomerActivity;
-            DataClassification = ToBeClassified;
             ToolTip = 'Specifies the type of customer.';
             AllowInCustomizations = Always;
             trigger OnValidate()
@@ -82,7 +78,6 @@ tableextension 50110 CustomerExt extends Customer
         field(50105; ActivityDescription; Text[50])
         {
             Caption = 'Activity Description';
-            DataClassification = ToBeClassified;
             ToolTip = 'Provides a description of the customer activity.';
             Editable = false;
             AllowInCustomizations = Always;
@@ -91,7 +86,6 @@ tableextension 50110 CustomerExt extends Customer
         {
             Caption = 'Customer Category';
             TableRelation = CustomerCategory;
-            DataClassification = ToBeClassified;
             ToolTip = 'Specifies the category of the customer.';
             AllowInCustomizations = Always;
             trigger OnValidate()
@@ -110,12 +104,34 @@ tableextension 50110 CustomerExt extends Customer
         field(50107; CategoryDescription; Text[50])
         {
             Caption = 'Category Description';
-            DataClassification = ToBeClassified;
             ToolTip = 'Provides a description of the customer category.';
             Editable = false;
             AllowInCustomizations = Always;
         }
-        //  todo añadir el resto de campos de la tabla que no está subrayados
+
+        field(50108; RiskGrantedMUSA; Decimal)
+        {
+            Caption = 'Risk Granted MUSA';
+            //TableRelation = Customer;
+            ToolTip = 'Specifies the risk granted in MUSA.';
+            AllowInCustomizations = Always;
+            MinValue = 0; //validación de rango mínimo
+            MaxValue = 10;//validación de rango máximo
+
+            trigger OnValidate()
+            begin
+                if (RiskGrantedMUSA < 0) or (RiskGrantedMUSA > 10) then
+                    Error('Risk Granted MUSA must be between 0 and 10.');
+                Clear(RiskGrantedMUSA);
+            end;
+        }
+        field(50109; ExceededRiskMUSA; Decimal)
+        {
+            Caption = 'Exceeded Risk MUSA';
+            //TableRelation = Customer;
+            ToolTip = 'Specifies the exceeded risk in MUSA.';
+            AllowInCustomizations = Always;
+        }
 
     }
 
