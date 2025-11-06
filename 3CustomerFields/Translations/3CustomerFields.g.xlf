@@ -143,6 +143,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CustomerTypeList - Control Ejercicio3 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 1044011001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Name 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control Second Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 526594952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Ejercicio 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control Ejercicio3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 1415774669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Activity Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control ActivityDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 241403306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Category Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control CategoryDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 2691930907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Customer Activity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control CustomerActivity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 462997376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Customer Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control CustomerCategory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 1829576142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Customer Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control CustomerDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 856545940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Customer Sector</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control CustomerSector - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 2076807096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Customer Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control CustomerType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532628451 - Control 2767866590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Sector Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerExtCard - Control SectorDescription - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1713901351 - Field 1415774669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Provides a description of the customer activity.</source>
           <note from="Developer" annotates="general" priority="2"></note>

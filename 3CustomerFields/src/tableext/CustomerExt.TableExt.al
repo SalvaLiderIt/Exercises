@@ -115,6 +115,8 @@ tableextension 50110 CustomerExt extends Customer
             Editable = false;
             AllowInCustomizations = Always;
         }
+        //  todo añadir el resto de campos de la tabla que no está subrayados
+
     }
 
 }
