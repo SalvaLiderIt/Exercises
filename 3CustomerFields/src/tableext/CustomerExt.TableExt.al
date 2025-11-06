@@ -115,14 +115,15 @@ tableextension 50110 CustomerExt extends Customer
             //TableRelation = Customer;
             ToolTip = 'Specifies the risk granted in MUSA.';
             AllowInCustomizations = Always;
-            MinValue = 0; //validación de rango mínimo
-            MaxValue = 10;//validación de rango máximo
+            //MinValue = 0; //validación de rango mínimo esto es un mojón
+            //MaxValue = 10;//validación de rango máximo
 
             trigger OnValidate()
             begin
-                if (RiskGrantedMUSA < 0) or (RiskGrantedMUSA > 10) then
-                    Error('Risk Granted MUSA must be between 0 and 10.');
-                Clear(RiskGrantedMUSA);
+                if (RiskGrantedMUSA < 0) or (RiskGrantedMUSA > 10) then begin
+                    Message('Risk Granted MUSA must be between 0 and 10.');
+                    Clear(RiskGrantedMUSA);
+                end;
             end;
         }
         field(50109; ExceededRiskMUSA; Decimal)
