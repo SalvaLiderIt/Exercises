@@ -5,12 +5,12 @@ permissionset 50100 "4VendorCertificate"
 
     Permissions =
     // tables
-    //table Qualities = X,
+    table VendorCertificatesHeader = X,
     //table Item = X,
     // table CustomerSector = X,
     // table CustomerCategory = X,
     //table Customer = X,
-    //tabledata Qualities = RIMD,
+    tabledata VendorCertificatesHeader = RIMD;
     //tabledata Item = RIMD,
     //tabledata CustomerType = RIMD,
     //tabledata CustomerSector = RIMD,
