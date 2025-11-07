@@ -68,6 +68,10 @@ pageextension 50100 ItemCard extends "Item Card"
                 {
                     ApplicationArea = All;
                 }
+                field(SurfaceArea; Rec.SurfaceArea)
+                {
+                    ApplicationArea = All;
+                }
                 field(PlaneNumber; Rec.PlaneNumber)
                 {
                     ApplicationArea = All;

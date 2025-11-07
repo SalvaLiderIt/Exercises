@@ -8,6 +8,15 @@ tableextension 50100 Item extends Item
             ToolTip = 'Specifies the category code of the item.';
             TableRelation = "Item Category" where("Clasification" = const(Family));
         }
+        modify("Unit Price")
+        {
+            trigger OnBeforeValidate()//este trigger ejecuta el código antes de la validación estandar de BC, es un poco trampa pero funciona
+            begin
+                ValidateMinimumPrice();
+            end;
+        }
+
+
         // info fields for General group
         field(50100; Subfamily; Code[20])
         {
@@ -60,7 +69,6 @@ tableextension 50100 Item extends Item
             Caption = 'Beta';
             ToolTip = 'Specifies the beta option for the item.';
             AllowInCustomizations = Always;
-            // todo crear enum BetaEnum con valores: blanco (vacio posiblemente?), largo, ancho
         }
         field(50107; TextureRoute; Text[255])
         {
@@ -171,4 +179,20 @@ tableextension 50100 Item extends Item
     end;
 
 
+    local procedure ValidateMinimumPrice()
+    var
+        MinimumPrice: Decimal;
+    begin
+        // Solo validar si hay último precio de compra y margen definido
+        if (LastPurchasePrice = 0) or (MarginPercentaje = 0) then
+            exit;
+
+        // Calcular precio mínimo
+        MinimumPrice := LastPurchasePrice * (1 + MarginPercentaje / 100);
+
+        // Validar
+        if "Unit Price" < MinimumPrice then
+            Error('Unit Price cannot be less than %1 (Last Purchase Price %2 + %3%% margin)',
+                  MinimumPrice, LastPurchasePrice, MarginPercentaje);
+    end;
 }
