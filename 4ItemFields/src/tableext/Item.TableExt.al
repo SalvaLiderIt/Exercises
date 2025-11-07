@@ -71,25 +71,40 @@ tableextension 50100 Item extends Item
             Caption = 'Width';
             ToolTip = 'Specifies the width of the item in centimeters.';
             AllowInCustomizations = Always;
+
+            trigger OnValidate()
+            begin
+                CalculateValues();
+            end;
         }
         field(50109; Length; Integer)
         {
             Caption = 'Length';
             ToolTip = 'Specifies the length of the item in centimeters.';
             AllowInCustomizations = Always;
+
+            trigger OnValidate()
+            begin
+                CalculateValues();
+            end;
         }
         field(50110; Thickness; Integer)
         {
             Caption = 'Thickness';
             ToolTip = 'Specifies the thickness of the item in millimeters.';
             AllowInCustomizations = Always;
+
+            trigger OnValidate()
+            begin
+                CalculateValues();
+            end;
         }
-        field(50111; SurfaceArea; DateFormula)
+        field(50111; SurfaceArea; Decimal)
         {
             Caption = 'Surface Area';
             ToolTip = 'Specifies the surface area of the item in square meters.';
             AllowInCustomizations = Always;
-            //  todo  Superficie en m2 ((ancho * largo) / 1000000)
+            Editable = false;
         }
         field(50112; Density; Decimal)
         {
@@ -102,7 +117,7 @@ tableextension 50100 Item extends Item
             Caption = 'Volume';
             ToolTip = 'Specifies the volume of the item in cubic meters.';
             AllowInCustomizations = Always;
-            //  todo  Volumen en m3 ((ancho * largo * espesor) / 1000000000)
+            Editable = false;
         }
         field(50114; PlaneNumber; Text[100])
         {
@@ -135,10 +150,20 @@ tableextension 50100 Item extends Item
 
         }
     }
+    local procedure CalculateValues()
+    begin
+        // Calcular superficie (solo si Width y Length tienen valor)
+        if (Width <> 0) and (Length <> 0) then
+            SurfaceArea := (Width * Length) / 1000000
+        else
+            SurfaceArea := 0;
 
-    keys
-    {
-        // Add changes to keys here
-    }
+        // Calcular volumen (solo si los 3 tienen valor)
+        if (Width <> 0) and (Length <> 0) and (Thickness <> 0) then
+            Volumen := (Width * Length * Thickness) / 1000000000
+        else
+            Volumen := 0;
+    end;
+
 
 }
