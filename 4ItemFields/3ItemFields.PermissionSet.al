@@ -5,12 +5,12 @@ permissionset 50100 "3ItemFields"
 
     Permissions =
     // tables
-    // table CustomerActivity = X,
+     table Qualities = X,
     // table CustomerType = X,
     // table CustomerSector = X,
     // table CustomerCategory = X,
     //table Customer = X,
-    //tabledata Taste = RIMD,
+    tabledata Qualities = RIMD;
     //tabledata CustomerActivity = RIMD,
     //tabledata CustomerType = RIMD,
     //tabledata CustomerSector = RIMD,
@@ -24,5 +24,5 @@ permissionset 50100 "3ItemFields"
     //codeunit CopyFields = X;
 
 
-;
+    ;
 }
