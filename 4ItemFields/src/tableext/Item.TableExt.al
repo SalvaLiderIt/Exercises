@@ -1,3 +1,4 @@
+#pragma warning disable LC0048 //decirle al LinterCop que ignore este warning añadiendo una directiva en el código:
 tableextension 50100 Item extends Item
 {
     fields
@@ -20,7 +21,12 @@ tableextension 50100 Item extends Item
             Caption = 'Custody Chain';
             ToolTip = 'Indicates whether the item requires custody chain tracking.';
             AllowInCustomizations = Always;
-            // todo si está marcado obligatorio informar de calidad (siguiente campo)
+
+            trigger OnValidate()
+            begin
+                if CustodyChain and (Quality = '') then
+                    Error('Quality must be specified when Custody Chain is enabled.');
+            end;
         }
         field(50102; Quality; Code[20])
         {
@@ -28,7 +34,6 @@ tableextension 50100 Item extends Item
             ToolTip = 'Specifies the quality code for the item.';
             AllowInCustomizations = Always;
             TableRelation = "Qualities";
-            // todo CREAR TABLA QUALITIES y Editable si Cadena de custodia está marcado
         }
         field(50103; Veta; Enum VetaEnum)
         {

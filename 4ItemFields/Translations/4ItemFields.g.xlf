@@ -3,6 +3,286 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="4ItemFields">
     <body>
       <group id="body">
+        <trans-unit id="Table 256703757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qualities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Qualities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 256703757 - Field 3567459362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Input</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Qualities - Field Input - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 256703757 - Field 1894652748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Qualities - Field QualityCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 256703757 - Field 2908651333 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Qualities - Field QualityDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 1189863029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Ejercicio 4 - Qualities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control ejercicio4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 53200078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Subfamily</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control Subfamily - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 1821274906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Ejercicio 4 - Qualities 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control ejercicio4_2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2876958691 - Control 1183578289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Ejercicio 4 - Qualities 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCard - Control ejercicio4_3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1020778533 - Control 3188276999 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3657300613">
+          <source>Clasification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCategories - Control Clasification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1425586559 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the Ardis category for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field ArdisCategory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1425586559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Ardis Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field ArdisCategory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 685846182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the beta option for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Beta - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 685846182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Beta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Beta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 450234770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Indicates whether the item requires custody chain tracking.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field CustodyChain - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 450234770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Custody Chain</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field CustodyChain - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 2131322004 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the density of the item in kg/m3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Density - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 2131322004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Density</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Density - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 2869515716 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the Ardis identification for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field IdArdis - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 2869515716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Ardis ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field IdArdis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1167913792 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the last purchase price of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field LastPurchasePrice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1167913792 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Last Purchase Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field LastPurchasePrice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1881551368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the length of the item in centimeters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Length - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1881551368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Length</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Length - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1688298189 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the percentage margin for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field MarginPercentaje - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1688298189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>% Margin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field MarginPercentaje - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 2277181531 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Indicates whether the item is on deposit.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field OnDeposit - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 2277181531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>On Deposit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field OnDeposit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 180956223 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the plane number associated with the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field PlaneNumber - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 180956223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Plane Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field PlaneNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1483341903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the quality code for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Quality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1483341903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Quality Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 53200078 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the subfamily code for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Subfamily - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 53200078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Subfamily Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Subfamily - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 3636690062 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the surface area of the item in square meters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field SurfaceArea - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 3636690062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Surface Area</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field SurfaceArea - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1869463722 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the texture route for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field TextureRoute - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 1869463722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Texture Route</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field TextureRoute - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 3583095146 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the thickness of the item in millimeters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Thickness - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 3583095146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Thickness</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Thickness - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 3866410450 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the veta option for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Veta - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 3866410450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Veta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Veta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 2905000722 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the volume of the item in cubic meters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Volumen - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 2905000722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Volume</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Volumen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 613790498 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the width of the item in centimeters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Width - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Field 613790498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Width</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Field Width - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3276313895 - Change 1037119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Specifies the category code of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item - Change Item Category Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2140734087 - Field 3188276999 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1487222247">
+          <source>Specifies the classification of the item category.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemCategory - Field Clasification - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2140734087 - Field 3188276999 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1487222247">
+          <source>Clasification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemCategory - Field Clasification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2358650619 - EnumValue 3127722509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ancho</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum BetaEnum - EnumValue Ancho - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2358650619 - EnumValue 1989324353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Largo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum BetaEnum - EnumValue Largo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3345230738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clasification Enum</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ClasificationEnum - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3345230738 - EnumValue 633051610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Family</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ClasificationEnum - EnumValue Family - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3345230738 - EnumValue 53200078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subfamily</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ClasificationEnum - EnumValue Subfamily - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3215315591 - EnumValue 3939861283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VetaEnum - EnumValue A - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3215315591 - EnumValue 2833377072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>L</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VetaEnum - EnumValue L - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3215315591 - EnumValue 3471073689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>O</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VetaEnum - EnumValue O - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 2097679353 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Permissions</source>
           <note from="Developer" annotates="general" priority="2"></note>

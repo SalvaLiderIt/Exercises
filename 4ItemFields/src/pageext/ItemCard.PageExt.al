@@ -9,6 +9,7 @@ pageextension 50100 ItemCard extends "Item Card"
                 Caption = 'Ejercicio 4 - Qualities';
                 field(Subfamily; Rec.Subfamily)
                 {
+                    Caption = 'Subfamily';
                     ApplicationArea = All;
                 }
                 field(CustodyChain; Rec.CustodyChain)
@@ -18,6 +19,7 @@ pageextension 50100 ItemCard extends "Item Card"
                 field(Quality; Rec.Quality)
                 {
                     ApplicationArea = All;
+                    Editable = Rec.CustodyChain; // only editable if custodychain is true
                 }
                 field(Veta; Rec.Veta)
                 {

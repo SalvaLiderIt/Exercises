@@ -6,6 +6,7 @@ tableextension 50101 ItemCategory extends "Item Category"
         {
             Caption = 'Clasification';
             AllowInCustomizations = Always;
+            ToolTip = 'Specifies the classification of the item category.';
         }
     }
 
