@@ -152,6 +152,7 @@ tableextension 50100 Item extends Item
             Caption = 'Last Purchase Price';
             ToolTip = 'Specifies the last purchase price of the item.';
             AllowInCustomizations = Always;
+            Editable = false;
             //  todo campo calculado que se actualiza con el ultimo precio de compra
         }
         field(50117; MarginPercentaje; Decimal)

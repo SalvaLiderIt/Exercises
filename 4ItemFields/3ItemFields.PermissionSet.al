@@ -6,12 +6,12 @@ permissionset 50100 "3ItemFields"
     Permissions =
     // tables
      table Qualities = X,
-    // table CustomerType = X,
+     table Item = X,
     // table CustomerSector = X,
     // table CustomerCategory = X,
     //table Customer = X,
-    tabledata Qualities = RIMD;
-    //tabledata CustomerActivity = RIMD,
+    tabledata Qualities = RIMD,
+    tabledata Item = RIMD,
     //tabledata CustomerType = RIMD,
     //tabledata CustomerSector = RIMD,
     //tabledata CustomerCategory = RIMD,
@@ -21,7 +21,7 @@ permissionset 50100 "3ItemFields"
     //page CustomerActivityList = X,
     //page CustomerCategoryList = X,
     // page CustomerTypeList = X,
-    //codeunit CopyFields = X;
+    codeunit UpdateLastPurchasePrice = X;
 
 
     ;
