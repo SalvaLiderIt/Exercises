@@ -8,7 +8,7 @@ tableextension 50100 Item extends Item
             Caption = 'Subfamily Code';
             ToolTip = 'Specifies the subfamily code for the item.';
             AllowInCustomizations = Always;
-            TableRelation = "Item Category";
+            TableRelation = "Item Category" where("Clasification" = const(Subfamily));
         }
         field(50101; CustodyChain; Boolean)
         {
