@@ -2,6 +2,11 @@ tableextension 50100 Item extends Item
 {
     fields
     {
+        modify("Item Category Code")//when i need to change a field in the base table i can use the modify keyword.
+        {
+            ToolTip = 'Specifies the category code of the item.';
+            TableRelation = "Item Category" where("Clasification" = const(Family));
+        }
         // info fields for General group
         field(50100; Subfamily; Code[20])
         {
