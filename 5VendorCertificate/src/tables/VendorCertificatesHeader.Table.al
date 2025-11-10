@@ -7,7 +7,6 @@ table 50100 VendorCertificatesHeader //Cabecera Certificados proveedor
     Permissions = tabledata "Purchases & Payables Setup" = RIMD,
     tabledata "VendorCertificatesHeader" = RIMD;
 
-
     fields
     {
         field(1; CertifiedCode; Code[20])
