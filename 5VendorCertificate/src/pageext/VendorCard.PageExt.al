@@ -1,6 +1,5 @@
-pageextension 50100 VendorList extends "Vendor List"
+pageextension 50101 VendorCard extends "Vendor Card"
 {
-
 
     actions
     {
@@ -12,7 +11,7 @@ pageextension 50100 VendorList extends "Vendor List"
                 ApplicationArea = All;
                 Image = Certificate;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Category9;//categoria para que aparezca el boton dentro del apartado de vendor
                 PromotedIsBig = true;
                 ToolTip = 'Manage vendor certificates.';
                 trigger OnAction()
@@ -23,5 +22,4 @@ pageextension 50100 VendorList extends "Vendor List"
             }
         }
     }
-
 }
