@@ -7,19 +7,19 @@ permissionset 50100 "4VendorCertificate"
     // tables
     table VendorCertificatesHeader = X,
     //table Item = X,
-    // table CustomerSector = X,
+    table VendorCertificatesLines = X,
     // table CustomerCategory = X,
     //table Customer = X,
-    tabledata VendorCertificatesHeader = RIMD;
+    tabledata VendorCertificatesHeader = RIMD,
     //tabledata Item = RIMD,
-    //tabledata CustomerType = RIMD,
+    tabledata VendorCertificatesLines = RIMD,
     //tabledata CustomerSector = RIMD,
     //tabledata CustomerCategory = RIMD,
     //tabledata Customer = RIMD,
     // pages
-    // page CustomerSectorList = X,
-    //page CustomerActivityList = X,
-    //page CustomerCategoryList = X,
+    page VendorCertificatesCard = X,
+    page VendorCertificatesList = X,
+    page VendorCertificatesLines = X;
     // page CustomerTypeList = X,
     //codeunit UpdateLastPurchasePrice = X;
 

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="5VendorCertificate">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2807993359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Certificates Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 1090351696 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the certificate is currently active.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field Active - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 1090351696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 1025054742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document attached to the certificate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field Attached - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 1025054742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attached Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field Attached - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 3965150590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the certificate, which is linked to a number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field CertifiedCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 3965150590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certified Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field CertifiedCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 3510568841 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the certificate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field CertifiedType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 3510568841 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certified Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field CertifiedType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 3361401265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the certificate expires.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field ExpirationDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 3361401265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expiration Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field ExpirationDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 1215198615 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the certificate was issued.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field IssueDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 1215198615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issue Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field IssueDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1781867017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Certificates Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1781867017 - Field 3702373668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the category of the certificate line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesLines - Field Category - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1781867017 - Field 3702373668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesLines - Field Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1781867017 - Field 53200078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subfamily</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesLines - Field Subfamily - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2386197916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Certificates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2386197916 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Certificates Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesList - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3510568841 - EnumValue 4223318242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FSC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CertifiedType - EnumValue FSC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3510568841 - EnumValue 136650772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PEFC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CertifiedType - EnumValue PEFC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3510568841 - EnumValue 238137052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PEFC &amp; FSC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CertifiedType - EnumValue PEFC&amp;FSC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 187976767 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permissions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet 4VendorCertificate - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
