@@ -16,6 +16,14 @@ table 50100 VendorCertificatesHeader //Cabecera Certificados proveedor
             TableRelation = "No. Series";
             ToolTip = 'Specifies the code of the certificate, which is linked to a number series.';
         }
+        field(9; "Vendor No."; Code[20])
+        {
+            Caption = 'Vendor No.';
+            AllowInCustomizations = Always;
+            TableRelation = Vendor;
+            ToolTip = 'Specifies the vendor associated with the certificate.';
+            NotBlank = true;
+        }
         field(10; "No. Series"; Code[20])
         {
             Caption = 'No. Series';

@@ -1,6 +1,17 @@
 pageextension 50101 VendorCard extends "Vendor Card"
 {
 
+    layout
+    {
+        addlast(General)
+        {
+            field(Homologated; Rec.Homologated)
+            {
+                ApplicationArea = All;
+                Caption = 'Homologated';
+            }
+        }
+    }
     actions
     {
         addlast("Ven&dor")

@@ -78,6 +78,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field No. Series - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor associated with the certificate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 2807993359 - Field 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorCertificatesHeader - Field Vendor No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1781867017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Certificates Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -112,11 +122,6 @@
           <source>Vendor Certificates Header</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Control GroupName - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 4090220058 - Control 81096115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Mi puto nombre</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Control Datos Adjuntos - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4090220058 - Action 632492012 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remove the attached document.</source>
@@ -203,6 +208,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCard - Action VendorCertificates - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1574261460 - Control 22868071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Homologated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCard - Control Homologated - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 400138034 - Action 3505093526 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
           <source>Manage vendor certificates.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -213,6 +223,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorList - Action VendorCertificates - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1575465679 - Change 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Specifies the quantity of the item to be purchased.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PurchaseLine - Change Quantity - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 854947185 - Field 1800196127 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3921990236">
           <source>Specifies the number series for vendor certificates.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -222,6 +237,16 @@
           <source>Vendor Certificate Nos.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension PurchasesSetup - Field Vendor Certificate Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1936001480 - Field 22868071 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Indicates whether the vendor is homologated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor - Field Homologated - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1936001480 - Field 22868071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+          <source>Homologated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor - Field Homologated - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3510568841 - EnumValue 4223318242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FSC</source>

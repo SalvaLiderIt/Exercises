@@ -14,14 +14,14 @@ permissionset 50100 "4VendorCertificate"
     //tabledata Item = RIMD,
     tabledata VendorCertificatesLines = RIMD,
     tabledata "Purchases & Payables Setup" = RIMD,
-    //tabledata CustomerCategory = RIMD,
+    tabledata "Purchase Header" = RIMD,
     //tabledata Customer = RIMD,
     // pages
     page VendorCertificatesCard = X,
     page VendorCertificatesList = X,
-    page VendorCertificatesLines = X;
+    page VendorCertificatesLines = X,
     // page CustomerTypeList = X,
-    //codeunit UpdateLastPurchasePrice = X;
+    codeunit "Vendor Certificate Mgt." = X;
 
 
     ;

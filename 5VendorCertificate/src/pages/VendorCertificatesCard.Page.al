@@ -17,6 +17,9 @@ page 50100 VendorCertificatesCard //Ficha Certificado Proveedor
                 {
 
                 }
+                field("Vendor No."; Rec."Vendor No.")
+                {
+                }
                 field(CertifiedType; Rec.CertifiedType)
                 {
                 }
