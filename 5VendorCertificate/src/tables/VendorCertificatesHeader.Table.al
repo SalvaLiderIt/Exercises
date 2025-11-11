@@ -64,7 +64,6 @@ table 50100 VendorCertificatesHeader //Cabecera Certificados proveedor
             Caption = 'Attached Document';
             ToolTip = 'Specifies the document attached to the certificate.';
             AllowInCustomizations = Always;
-            //  todo Obligatorio adjuntarlo para poder guardar la fecha de certificado.
         }
     }
     keys

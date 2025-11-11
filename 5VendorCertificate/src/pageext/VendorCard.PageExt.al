@@ -16,7 +16,7 @@ pageextension 50101 VendorCard extends "Vendor Card"
                 ToolTip = 'Manage vendor certificates.';
                 trigger OnAction()
                 begin
-                    PAGE.Run(PAGE::VendorCertificatesList);
+                    PAGE.Run(PAGE::VendorCertificatesCard);
                 end;
 
             }

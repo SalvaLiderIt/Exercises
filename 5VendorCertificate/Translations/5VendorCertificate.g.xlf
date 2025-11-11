@@ -113,6 +113,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Control GroupName - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4090220058 - Control 81096115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mi puto nombre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Control Datos Adjuntos - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 4090220058 - Action 632492012 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remove the attached document.</source>
           <note from="Developer" annotates="general" priority="2"></note>

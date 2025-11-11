@@ -33,8 +33,25 @@ page 50100 VendorCertificatesCard //Ficha Certificado Proveedor
                 {
                 } */
             }
+            part(VendorCertificatesLines; VendorCertificatesLines) //  note para agregar lineas dentro de una pagina tipo documento. Importante que la pagina de lineas sea tipo ListPart. Una "pagina vinculada a otra tabla" dentro de otra pagina, es como un renderizado dentro de otro renderizado
+            {
+            }
+        }
+        area(FactBoxes)
+        {
+            systempart(Notes; Notes)
+            {
+            }
+            systempart(Links; Links)
+            {
+            }
+            part("Attached Documents List"; "Doc. Attachment List Factbox")
+            {
+            }
+            part("Datos Adjuntos"; "Document Attachment Factbox") { }//  note  para mostrar el factbox de documentos adjuntos en la pagina de certificado proveedor, lo van a borrar
         }
     }
+
 
     actions
     {

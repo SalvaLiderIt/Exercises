@@ -36,6 +36,8 @@ page 50101 VendorCertificatesList //Ficha Certificado Proveedor
         }
     }
 
+
+
     actions
     {
         area(Processing)
@@ -82,7 +84,7 @@ page 50101 VendorCertificatesList //Ficha Certificado Proveedor
                         Message('No hay ningún documento adjunto.');
 
                     Rec.Attached.CreateInStream(InStr);
-                    FileName := 'Certificate_' + Rec.CertifiedCode + '.pdf';  // Puedes mejorar el nombre
+                    FileName := 'Certificate_' + Rec.CertifiedCode + '.pdf';  // nombre y formato para exportar archivo
                     DownloadFromStream(InStr, 'Export', '', '', FileName);
                 end;
             }
@@ -99,7 +101,7 @@ page 50101 VendorCertificatesList //Ficha Certificado Proveedor
                     if not Rec.Attached.HasValue() then
                         Message('No hay ningún documento adjunto.');
 
-                    if Confirm('¿Está seguro de que desea eliminar el documento adjunto?') then begin
+                    if Confirm('¿Está seguro de que desea eliminar el documento adjunto?') then begin //MUY UTIL CONFIRM
                         Clear(Rec.Attached);
                         Rec.Modify(true);
                         Message('Documento eliminado.');
