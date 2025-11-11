@@ -84,12 +84,12 @@ table 50100 VendorCertificatesHeader //Cabecera Certificados proveedor
         }
     }
 
-
     // contador secuencial, demasiado complejo y falta de información por parte del documento funcional
     trigger OnInsert()
     var
         PurchasesSetup: Record "Purchases & Payables Setup";
         NoSeries: Codeunit "No. Series";
+        MyErrorInfo: ErrorInfo;
     begin
         if CertifiedCode = '' then begin
             if not PurchasesSetup.Get() then
@@ -99,6 +99,11 @@ table 50100 VendorCertificatesHeader //Cabecera Certificados proveedor
             "No. Series" := PurchasesSetup."Vendor Certificate Nos.";
         end;
         UpdateActiveStatus();
+
+        if not Attached.HasValue() then begin
+            MyErrorInfo := ErrorInfo.Create('Attached Document is required when inserting a new Vendor Certificate.');
+            Error(MyErrorInfo);
+        end;
     end;
 
     local procedure UpdateActiveStatus()

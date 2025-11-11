@@ -113,6 +113,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Control GroupName - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4090220058 - Action 632492012 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove the attached document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Action DeleteAttachment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4090220058 - Action 632492012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Action DeleteAttachment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4090220058 - Action 2546799871 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download the attached document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Action ExportAttachment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4090220058 - Action 2546799871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Action ExportAttachment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4090220058 - Action 1458167888 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import and attach a document to this certificate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Action ImportAttachment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4090220058 - Action 1458167888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesCard - Action ImportAttachment - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1781867017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Certificates Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -127,6 +157,36 @@
           <source>Vendor Certificates Header</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesList - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2386197916 - Action 632492012 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove the attached document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesList - Action DeleteAttachment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2386197916 - Action 632492012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesList - Action DeleteAttachment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2386197916 - Action 2546799871 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download the attached document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesList - Action ExportAttachment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2386197916 - Action 2546799871 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesList - Action ExportAttachment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2386197916 - Action 1458167888 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import and attach a document to this certificate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesList - Action ImportAttachment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2386197916 - Action 1458167888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorCertificatesList - Action ImportAttachment - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1574261460 - Action 3505093526 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
           <source>Manage vendor certificates.</source>
