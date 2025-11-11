@@ -5,14 +5,14 @@ permissionset 50100 "6Homologation"
 
     Permissions =
     // tables
-    // table VendorCertificatesHeader = X,
-    //table Item = X,
-    //  table VendorCertificatesLines = X,
+     table VendorEvaluationHeader = X,
+    table EvaluationCriteria = X,
+      table VendorEvaluationLines = X,
     //  table "Purchases & Payables Setup" = X,
     //table Customer = X,
-    // tabledata VendorCertificatesHeader = RIMD,
-    //tabledata Item = RIMD,
-    // tabledata VendorCertificatesLines = RIMD,
+     tabledata VendorEvaluationLines = RIMD,
+    tabledata VendorEvaluationHeader = RIMD,
+     tabledata EvaluationCriteria = RIMD;
     // tabledata "Purchases & Payables Setup" = RIMD,
     // tabledata "Purchase Header" = RIMD,
     //tabledata Customer = RIMD,
