@@ -2,6 +2,7 @@ table 50101 VendorEvaluationLines
 {
     DataClassification = ToBeClassified;
     Caption = 'Vendor Evaluation Lines';
+    Permissions = tabledata VendorEvaluationHeader = RIMD;
 
     fields
     {
@@ -18,6 +19,17 @@ table 50101 VendorEvaluationLines
             Caption = 'Good';
             ToolTip = 'Indicates if the vendor meets the good criteria.';
 
+            trigger OnValidate()
+            var
+                VendorEvalHeader: Record VendorEvaluationHeader;
+            begin
+                if Good then begin  // Si se marca como verdadero
+                    if VendorEvalHeader.Get(EvaluationNo) then begin
+                        VendorEvalHeader.Result := VendorEvalHeader.Result::Testing;
+                        VendorEvalHeader.Modify(true);
+                    end;
+                end;
+            end;
         }
         field(3; Normal; Boolean)
         {
@@ -32,11 +44,18 @@ table 50101 VendorEvaluationLines
             ToolTip = 'Indicates if the vendor meets the bad criteria.';
 
         }
+        field(5; EvaluationNo; Code[20])//campo para relacionar las lineas con el header
+        {
+            Caption = 'Evaluation No.';
+            ToolTip = 'Specifies the evaluation number associated with this line.';
+            TableRelation = VendorEvaluationHeader;
+            AllowInCustomizations = Always;
+        }
     }
 
     keys
     {
-        key(Key1; Criteria)
+        key(Key1; EvaluationNo, Criteria)
         {
             Clustered = true;
         }

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="6Homologation">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3531927719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluation Criteria</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EvaluationCriteria - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531927719 - Field 197489618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the evaluation criteria.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EvaluationCriteria - Field CriteriaCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3531927719 - Field 197489618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Criteria Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EvaluationCriteria - Field CriteriaCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531927719 - Field 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Provides a description of the evaluation criteria.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EvaluationCriteria - Field Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3531927719 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EvaluationCriteria - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Evaluation Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 135545498 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the evaluation was archived.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field ArchiveDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 135545498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field ArchiveDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 3543129988 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the evaluation is blocked.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field Blocked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field Blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 2673843014 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date of the evaluation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field EvaluationDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 2673843014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluation Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field EvaluationDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 1817045929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the evaluation number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field EvaluationNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 1817045929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nº</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field EvaluationNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 529565009 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies other aspects of the evaluation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field OtherAspects - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 529565009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other Aspects</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field OtherAspects - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 1214298328 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the person responsible for the evaluation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field Responsible - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 1214298328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Responsible</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field Responsible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 472338107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the result of the evaluation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field Result - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 472338107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 779730061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field VendorName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 779730061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field VendorName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 1607295407 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field VendorNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4047628151 - Field 1607295407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationHeader - Field VendorNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Evaluation Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Field 3019474713 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates if the vendor meets the bad criteria.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field Bad - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Field 3019474713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field Bad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Field 2261575725 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the evaluation criteria.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field Criteria - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Field 2261575725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Criteria</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field Criteria - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Field 4041807949 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates if the vendor meets the good criteria.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field Good - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Field 4041807949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field Good - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Field 221910773 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates if the vendor meets the normal criteria.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field Normal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Field 221910773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field Normal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 758926225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluation Criteria</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EvaluationCriteriaList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 758926225 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluation Criteria Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EvaluationCriteriaList - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 758926225 - Control 197489618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Criteria Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EvaluationCriteriaList - Control CriteriaCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 758926225 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EvaluationCriteriaList - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307823619 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Evaluation Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationCardDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307823619 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationCardDocument - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2267271636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Evaluations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 473100726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Evaluation Lines Subform</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationListSubform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 473100726 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Evaluation Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationListSubform - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4272718630 - EnumValue 346708723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accepted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ResultEnum - EnumValue Accepted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4272718630 - EnumValue 1192792543 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opened</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ResultEnum - EnumValue Opened - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4272718630 - EnumValue 496445946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ResultEnum - EnumValue Rejected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4272718630 - EnumValue 3246098898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Testing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ResultEnum - EnumValue Testing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 563682702 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permissions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet 6Homologation - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

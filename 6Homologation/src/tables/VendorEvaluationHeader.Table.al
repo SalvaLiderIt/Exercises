@@ -5,6 +5,8 @@ table 50100 VendorEvaluationHeader
     LookupPageId = VendorEvaluationList;
     DrillDownPageId = VendorEvaluationList;
 
+    Permissions = tabledata Vendor = RIMD;
+
     fields
     {
         field(1; EvaluationNo; Code[20])
@@ -13,7 +15,6 @@ table 50100 VendorEvaluationHeader
             TableRelation = "No. Series";
             NotBlank = true;
             ToolTip = 'Specifies the evaluation number.';
-            //  todo Hay que hacer lógica de números de serie
         }
         field(2; EvaluationDate; Date)
         {
@@ -30,7 +31,6 @@ table 50100 VendorEvaluationHeader
         {
             Caption = 'Blocked';
             ToolTip = 'Specifies whether the evaluation is blocked.';
-            //  todo Es cuando el proveedor se da de baja
         }
         field(5; VendorNo; Code[20])
         {
@@ -38,23 +38,36 @@ table 50100 VendorEvaluationHeader
             ToolTip = 'Specifies the vendor number.';
             TableRelation = Vendor;
             NotBlank = true;
+
+            trigger OnValidate()
+            var
+                Vendor: Record Vendor;
+            begin
+                if VendorNo <> '' then begin
+                    if Vendor.Get(VendorNo) then
+                        VendorName := Vendor.Name
+                    else
+                        VendorName := '';
+                end else
+                    VendorName := '';
+
+            end;
         }
         field(6; VendorName; Text[100])
         {
             Caption = 'Vendor Name';
             ToolTip = 'Specifies the name of the vendor.';
-            //  todo  al validar el código proveedor. Un flowfield que copie el nombre del proveedor
         }
         field(7; OtherAspects; Text[250])
         {
             Caption = 'Other Aspects';
             ToolTip = 'Specifies other aspects of the evaluation.';
-            //  todo tiene que ser un campo de texto grande
         }
         field(8; Result; Enum "ResultEnum")
         {
             Caption = 'Result';
             ToolTip = 'Specifies the result of the evaluation.';
+            //  todo Se cambia a “En pruebas” cuando se marca un criterio de las líneas. Hay que agregar primero las lineas al document
         }
         field(9; Responsible; Code[50])
         {

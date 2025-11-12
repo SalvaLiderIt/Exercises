@@ -39,7 +39,7 @@ page 50101 VendorEvaluationCardDocument
                 }
                 field(OtherAspects; Rec.OtherAspects)
                 {
-
+                    MultiLine = true; //esto permite que el campo sea más grande
                 }
                 field(Result; Rec.Result)
                 {
@@ -49,6 +49,7 @@ page 50101 VendorEvaluationCardDocument
                 {
                 }
             }
+            part(VendorEvaluationListSubform; "VendorEvaluationListSubform") { } //  note para agregar lineas dentro de una pagina tipo documento. Importante que la pagina de lineas sea tipo ListPart. Una "pagina vinculada a otra tabla" dentro de otra pagina, es como un renderizado dentro de otro renderizado
         }
     }
 

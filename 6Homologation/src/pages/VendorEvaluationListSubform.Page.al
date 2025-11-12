@@ -10,7 +10,7 @@ page 50102 VendorEvaluationListSubform
     {
         area(Content)
         {
-            group(GroupName)
+            repeater(GroupName)
             {
                 Caption = 'Vendor Evaluation Lines';
                 field(Criteria; Rec.Criteria)
