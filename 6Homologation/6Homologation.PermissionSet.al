@@ -20,8 +20,8 @@ permissionset 50100 "6Homologation"
      page VendorEvaluationList = X,
     page EvaluationCriteriaList = X,
     page VendorEvaluationCardDocument = X,
-    page VendorEvaluationListSubform = X;
-    // page VendorCertificatesLines = X,
+    page VendorEvaluationListSubform = X,
+     page VendorEvaluationsArchived = X;
     // page CustomerTypeList = X,
     //codeunit "Vendor Certificate Mgt." = X;
 

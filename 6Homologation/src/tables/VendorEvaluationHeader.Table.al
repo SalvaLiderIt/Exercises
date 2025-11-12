@@ -73,7 +73,7 @@ table 50100 VendorEvaluationHeader
         {
             Caption = 'Responsible';
             ToolTip = 'Specifies the person responsible for the evaluation.';
-            TableRelation = "User Setup"; //  note jose tiene puesto "User Setup"."User ID";
+            TableRelation = "User Setup";
         }
 
 
