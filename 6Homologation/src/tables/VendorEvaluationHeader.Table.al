@@ -2,6 +2,8 @@ table 50100 VendorEvaluationHeader
 {
     DataClassification = ToBeClassified;
     Caption = 'Vendor Evaluation Header';
+    LookupPageId = VendorEvaluationList;
+    DrillDownPageId = VendorEvaluationList;
 
     fields
     {

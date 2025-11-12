@@ -12,13 +12,15 @@ permissionset 50100 "6Homologation"
     //table Customer = X,
      tabledata VendorEvaluationLines = RIMD,
     tabledata VendorEvaluationHeader = RIMD,
-     tabledata EvaluationCriteria = RIMD;
+     tabledata EvaluationCriteria = RIMD,
     // tabledata "Purchases & Payables Setup" = RIMD,
     // tabledata "Purchase Header" = RIMD,
     //tabledata Customer = RIMD,
     // pages
-    // page VendorCertificatesCard = X,
-    //page VendorCertificatesList = X,
+     page VendorEvaluationList = X,
+    page EvaluationCriteriaList = X,
+    page VendorEvaluationCardDocument = X,
+    page VendorEvaluationListSubform = X;
     // page VendorCertificatesLines = X,
     // page CustomerTypeList = X,
     //codeunit "Vendor Certificate Mgt." = X;
