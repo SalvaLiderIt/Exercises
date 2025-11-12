@@ -148,6 +148,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field Criteria - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 728044305 - Field 1817045929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the evaluation number associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field EvaluationNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 728044305 - Field 1817045929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluation No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VendorEvaluationLines - Field EvaluationNo - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 728044305 - Field 4041807949 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Indicates if the vendor meets the good criteria.</source>
           <note from="Developer" annotates="general" priority="2"></note>
