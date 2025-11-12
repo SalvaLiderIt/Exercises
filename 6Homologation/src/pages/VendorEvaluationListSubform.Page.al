@@ -5,6 +5,7 @@ page 50102 VendorEvaluationListSubform
     UsageCategory = Administration;
     SourceTable = VendorEvaluationLines;
     Caption = 'Vendor Evaluation Lines Subform';
+    Permissions = tabledata VendorEvaluationHeader = RIMD;
 
     layout
     {
@@ -29,4 +30,5 @@ page 50102 VendorEvaluationListSubform
             }
         }
     }
+
 }
