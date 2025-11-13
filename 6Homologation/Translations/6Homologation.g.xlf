@@ -208,6 +208,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationCardDocument - Control GroupName - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 307823619 - Action 6111000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive this vendor evaluation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationCardDocument - Action ArchiveEvaluation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 307823619 - Action 6111000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Evaluation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationCardDocument - Action ArchiveEvaluation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307823619 - Action 6111000 - Method 1377591017 - NamedType 331638123" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot archive: The vendor %1 already has an active evaluation (Nº %2).</source>
+          <note from="Developer" annotates="general" priority="2">%1 si no incluyo esto me da warning y %2 tantos tags como tenga </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationCardDocument - Action ArchiveEvaluation - Method OnAction - NamedType ErrorMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 307823619 - Action 6111000 - Method 1377591017 - NamedType 1556380518" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluation has been archived successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationCardDocument - Action ArchiveEvaluation - Method OnAction - NamedType SuccessMsg</note>
+        </trans-unit>
         <trans-unit id="Page 2267271636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Evaluations</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -222,6 +242,111 @@
           <source>Vendor Evaluation Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationListSubform - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Evaluations Archived</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Control 1606682606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Evaluations Archived</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Control List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Action 6111000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive the selected vendor evaluation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Action ArchiveEvaluation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Action 6111000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Evaluation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Action ArchiveEvaluation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Action 6111000 - Method 1377591017 - NamedType 331638123" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot archive: The vendor %1 already has an active evaluation (Nº %2).</source>
+          <note from="Developer" annotates="general" priority="2">%1 si no incluyo esto me da warning y %2 tantos tags como tenga </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Action ArchiveEvaluation - Method OnAction - NamedType ErrorMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Action 6111000 - Method 1377591017 - NamedType 1556380518" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluation has been archived successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Action ArchiveEvaluation - Method OnAction - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Action 3284957801 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unarchive the selected vendor evaluation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Action UnarchiveEvaluation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Action 3284957801 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unarchive Evaluation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Action UnarchiveEvaluation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Action 3284957801 - Method 1377591017 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The vendor %1 already has an active evaluation. Do you want to archive it and unarchive this one?</source>
+          <note from="Developer" annotates="general" priority="2">%1 tantos tags como tenga </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Action UnarchiveEvaluation - Method OnAction - NamedType ConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Action 3284957801 - Method 1377591017 - NamedType 1556380518" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluation has been unarchived successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Action UnarchiveEvaluation - Method OnAction - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 656003289 - Action 3284957801 - Method 1377591017 - NamedType 3185338174" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation cancelled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorEvaluationsArchived - Action UnarchiveEvaluation - Method OnAction - NamedType CancelledMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2293025083 - Action 256759003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Evaluations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt - Action VendorEvaluations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2293025083 - Action 293180214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Show active vendor evaluations for this vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt - Action ShowActiveEvaluations - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2293025083 - Action 293180214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Active Evaluations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt - Action ShowActiveEvaluations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2293025083 - Action 1491872468 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Show archived vendor evaluations for this vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt - Action ShowArchivedEvaluations - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2293025083 - Action 1491872468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Archived Evaluations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt - Action ShowArchivedEvaluations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3239159497 - Action 256759003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Evaluations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorListExt - Action VendorEvaluations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3239159497 - Action 293180214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Show active vendor evaluations for this vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorListExt - Action ShowActiveEvaluations - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3239159497 - Action 293180214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Active Evaluations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorListExt - Action ShowActiveEvaluations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3239159497 - Action 1491872468 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Show archived vendor evaluations for this vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorListExt - Action ShowArchivedEvaluations - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3239159497 - Action 1491872468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Archived Evaluations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorListExt - Action ShowArchivedEvaluations - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4272718630 - EnumValue 346708723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Accepted</source>
