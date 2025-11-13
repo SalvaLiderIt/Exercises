@@ -1,16 +1,16 @@
-permissionset 50100 "6Homologation"
+permissionset 50100 "8MultipleOffer"
 {
     Assignable = true;
     Caption = 'Permissions', MaxLength = 30;
 
     Permissions =
     // tables
-    //   table VendorEvaluationHeader = X,
+    //  table OfferedPurchaseLinesTable = X,
     //  table EvaluationCriteria = X,
     //   table VendorEvaluationLines = X,
     //  table "Purchases & Payables Setup" = X,
     //table Customer = X,
-    //   tabledata VendorEvaluationLines = RIMD,
+    //   tabledata OfferedPurchaseLinesTable = RIMD;
     //   tabledata VendorEvaluationHeader = RIMD,
     //  tabledata EvaluationCriteria = RIMD,
 
