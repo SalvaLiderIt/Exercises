@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="7AuthorizedUser">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 2347270798 - Method 3202565408 - NamedType 1645312267" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User doesnt have permission to copy quotes to purchase orders.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PurchaseQuoteManagement - Method CheckUserPermissionOnBeforeConvertQuoteToOrder - NamedType UserNotAllowedErr</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1452375833 - Control 806924611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 337631938">
           <source>Copy Quote to Purchase Order</source>
           <note from="Developer" annotates="general" priority="2"></note>
