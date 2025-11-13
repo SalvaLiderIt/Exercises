@@ -23,7 +23,7 @@ permissionset 50100 "7AuthorizedUser"
     //page VendorEvaluationListSubform = X,
     //page VendorEvaluationsArchived = X;
     // page CustomerTypeList = X,
-    //codeunit "Vendor Certificate Mgt." = X;
+    codeunit PurchaseQuoteManagement = X;
 
 
     ;
