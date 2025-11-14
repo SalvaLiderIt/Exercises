@@ -3,6 +3,76 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="8MultiplePurchaseOfferOneOrder">
     <body>
       <group id="body">
+        <trans-unit id="Page 2210992216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Offered Purchase Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2210992216 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the purchase line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2210992216 - Control 3948462483 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item reference number for the purchase line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Control Item Reference No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2210992216 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the purchase line number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2210992216 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the purchase line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2210992216 - Control 695311439 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies select the purchase line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Control SelectLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2210992216 - Control 695311439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Control SelectLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2210992216 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the purchase line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2210992216 - Action 1315191579 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates a single purchase order from the selected quote lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Action CreatePurchaseOrder - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2210992216 - Action 1315191579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OfferedPurchaseLinesPage - Action CreatePurchaseOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2293025083 - Action 2277524665 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Manage offered purchase lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt - Action OfferedPurchaseLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2293025083 - Action 2277524665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Offered Purchase Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorCardExt - Action OfferedPurchaseLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 869923536 - Field 695311439 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Indicates whether the purchase line is selected.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase LineExt - Field SelectLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 869923536 - Field 695311439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Select Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase LineExt - Field SelectLines - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 1305353852 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Permissions</source>
           <note from="Developer" annotates="general" priority="2"></note>

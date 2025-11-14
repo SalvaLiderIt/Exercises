@@ -22,8 +22,8 @@ permissionset 50100 "8MultipleOffer"
     // page VendorEvaluationCardDocument = X,
     //page VendorEvaluationListSubform = X,
     //page VendorEvaluationsArchived = X;
-    // page CustomerTypeList = X,
-    //codeunit "Vendor Certificate Mgt." = X;
+     page OfferedPurchaseLinesPage = X,
+    codeunit "CreateMultipleOffers" = X;
 
 
     ;
