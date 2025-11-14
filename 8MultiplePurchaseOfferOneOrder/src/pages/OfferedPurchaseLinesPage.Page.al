@@ -54,6 +54,7 @@ page 50100 OfferedPurchaseLinesPage
                 Image = NewOrder;
                 Promoted = true;
                 PromotedCategory = Process;// esta linea me permite poner el botón a la derecha de "Delete"
+                PromotedOnly = true;
 
                 ToolTip = 'Creates a single purchase order from the selected quote lines.';
                 trigger OnAction()
