@@ -15,7 +15,7 @@ report 50100 PedidoCompraReport
         dataitem(DataSet_Result; "Purchase Header")
         {
             //  todo EN EL HEADER SE REPITE SOLO IMAGEN Y EL "SELLO"
-            column(Name; CompanyInformation.Name)
+            column(Name2; CompanyInformation.Name2)
             {
                 IncludeCaption = true;
             }
@@ -33,10 +33,6 @@ report 50100 PedidoCompraReport
 
 
                 column(Description; Description) { }
-                column(Line_Amount; "Line Amount")
-                {
-
-                }
                 column(TotalAmount; GetLineAmountExclVAT())//recordar que se pueden poner procedimientos en las columnas, no tiene por que ser únicamente tablas o campos
                 {
                 }

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:am="http://schemas.microsoft.com/sqlserver/reporting/authoringmetadata">
-  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
   <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
   <am:AuthoringMetadata>
     <am:CreatedBy>
@@ -11,7 +11,7 @@
       <am:Name>PBIRB</am:Name>
       <am:Version>15.7.1813.16</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-11-18T12:31:12.9611918Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2025-11-19T07:25:33.8694982Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -27,13 +27,13 @@
   <ReportSections>
     <ReportSection>
       <Body>
-        <Height>2in</Height>
+        <Height>26.41917cm</Height>
         <Style />
       </Body>
-      <Width>6.5in</Width>
+      <Width>16.51cm</Width>
       <Page>
         <PageHeader>
-          <Height>1in</Height>
+          <Height>3.28083cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -52,6 +52,49 @@
                 </Border>
               </Style>
             </Image>
+            <Textbox Name="Textbox1">
+              <rd:DefaultName>Textbox1</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Fields!Name2.Value</Value>
+                      <Style>
+                        <Color>Blue</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Fields!CIF.Value</Value>
+                      <Style>
+                        <Color>Blue</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.47308cm</Top>
+              <Left>10.79183cm</Left>
+              <Height>2.47854cm</Height>
+              <Width>3.53188cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
           </ReportItems>
           <Style>
             <Border>
@@ -59,6 +102,9 @@
             </Border>
           </Style>
         </PageHeader>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>21cm</PageWidth>
+        <ColumnSpacing>1.27cm</ColumnSpacing>
         <Style />
       </Page>
     </ReportSection>
@@ -154,14 +200,14 @@
       </DefaultValue>
       <Prompt>ToTalInvoice</Prompt>
     </ReportParameter>
-    <ReportParameter Name="NameCaption">
+    <ReportParameter Name="Name2Caption">
       <DataType>String</DataType>
       <DefaultValue>
         <Values>
-          <Value>NameCaption</Value>
+          <Value>Name2Caption</Value>
         </Values>
       </DefaultValue>
-      <Prompt>NameCaption</Prompt>
+      <Prompt>Name2Caption</Prompt>
     </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
@@ -222,7 +268,7 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>10</RowIndex>
-          <ParameterName>NameCaption</ParameterName>
+          <ParameterName>Name2Caption</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>
@@ -267,8 +313,8 @@ End Function
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
-        <Field Name="Name">
-          <DataField>Name</DataField>
+        <Field Name="Name2">
+          <DataField>Name2</DataField>
         </Field>
         <Field Name="CIF">
           <DataField>CIF</DataField>
@@ -278,12 +324,6 @@ End Function
         </Field>
         <Field Name="Description">
           <DataField>Description</DataField>
-        </Field>
-        <Field Name="Line_Amount">
-          <DataField>Line_Amount</DataField>
-        </Field>
-        <Field Name="Line_AmountFormat">
-          <DataField>Line_AmountFormat</DataField>
         </Field>
         <Field Name="TotalAmount">
           <DataField>TotalAmount</DataField>
