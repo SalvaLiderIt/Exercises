@@ -12,30 +12,38 @@ report 50100 PedidoCompraReport
     dataset
     {
         //HEADER ------------------------------------------------------------------------------------------------------------------------------------------
-        dataitem(DataSet_Result; "Purchase Header")
+        dataitem(PurchaseHeader; "Purchase Header")
         {
+            DataItemTableView = where("Document Type" = const(Order));
+
             //  todo EN EL HEADER SE REPITE SOLO IMAGEN Y EL "SELLO"
             column(Name2; CompanyInformation.Name2)
             {
                 IncludeCaption = true;
             }
-            column(CIF; CompanyInformation."VAT Registration No.")//  todo falta por ver como poner el "-" entre la B y el numero
-            {
-            }
+            column(CIF; CompanyInformation."VAT Registration No.") { }
             column(Picture; CompanyInformation.Picture) { }
-
+            column(Adress; CompanyInformation.Address) { }
+            column(Adress2; CompanyInformation."Address 2") { }
+            column(Post_Code; CompanyInformation."Post Code") { }
+            column(City; CompanyInformation.City) { }
+            column(Province; CompanyInformation.Province) { }
+            column(Phone; CompanyInformation."Phone No.") { }
+            column(Phone2; CompanyInformation.PhoneNo2) { }
+            column(email; CompanyInformation."E-Mail") { }
+            column(homepage; CompanyInformation."Home Page") { }
 
 
             dataitem(PurchaseLine; "Purchase Line")
             {
                 // BODY ------------------------------------------------------------------------------------------------------------------------------------------
-                DataItemLink = "Document No." = field("No.");//filtro para que solo salgan las lineas del albaran actual
-
+                DataItemLink = "Document Type" = field("Document Type"), "Document No." = field("No.");
 
                 column(Description; Description) { }
                 column(TotalAmount; GetLineAmountExclVAT())//recordar que se pueden poner procedimientos en las columnas, no tiene por que ser únicamente tablas o campos
                 {
                 }
+                column(No; PurchaseLine."Document No.") { }
 
             }
 
@@ -56,9 +64,11 @@ report 50100 PedidoCompraReport
         DeliveryDatelbl = 'Delivery Date:';
         Conceptlbl = 'Concept';
         Amount = 'Amount';
-        InformationClause = 'Information Clause';
-        LawText = 'Con el siguiente texto fijo: “De conformidad con el artículo 13 de la sección 2 del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 y la Ley Orgánica 3/2018, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos, le informamos que el responsable del tratamiento es CLÍNICA LA ARRUZAFA, S.L., que dicho tratamiento se lleva a cabo para la gestión contable, fiscal y administrativa y para el envio de comunicaciones comerciales sobre productos y servicios de la Clínica que ser de su interés. La base legal que permite legitimar este tratamiento el cumplimiento de una obligación legal. Se comunicarán datos a terceros para poder llevar a cabo las finalidades objeto de este contrato. Puede usted acceder, rectificar y suprimir sus datos, así como otros derechos, dirigiéndose por escrito a nuestro Delegado de Protección de Datos m.montaldo@compliancecorporativo.es. Puede usted obtener información ampliada sobre protección de datos solicitándola a nuestro Delegado de Protección de Datos m.montaldo@compliancecorporativo.es”.';
         ToTalInvoice = 'Total Invoice EUR:';
+        Officelbl = 'OFFICE. Tel. +';
+        Factorylbl = 'FACTORY. Tel. +';
+        Footerlbl = 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. ';
+
     }
 
 
