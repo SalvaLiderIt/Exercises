@@ -32,6 +32,15 @@ report 50100 PedidoCompraReport
             column(Phone2; CompanyInformation.PhoneNo2) { }
             column(email; CompanyInformation."E-Mail") { }
             column(homepage; CompanyInformation."Home Page") { }
+            // Datos del proveedor -------------------------------------------------------------------------------------------------
+            column(VendorNo; "Buy-from Vendor No.") { }
+            column(VendorName; "Buy-from Vendor Name") { }
+            column(VendorAddress; "Buy-from Address") { }
+            column(VendorCP; "Buy-from Post Code") { }
+            column(VendorCity; "Buy-from City") { }
+            column(VendorProvince; Province) { }
+            //column(VendorPhone; "") { }
+
 
 
             dataitem(PurchaseLine; "Purchase Line")
@@ -57,7 +66,7 @@ report 50100 PedidoCompraReport
 
     labels
     {
-        CIFlbl = 'C.I.F.'; //  todo falta por ver como poner el "-" entre la B y el numero
+        CIFlbl = 'CIF:'; //  todo falta por ver como poner el "-" entre la B y el numero
         InvoiceNolbl = 'Invoice Nº:';
         InvoiceDatelbl = 'Invoice Date:';
         NIFlbl = 'N.I.F.:';
@@ -68,6 +77,10 @@ report 50100 PedidoCompraReport
         Officelbl = 'OFFICE. Tel. +';
         Factorylbl = 'FACTORY. Tel. +';
         Footerlbl = 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. ';
+        PurchaseOrderlbl = 'PURCHASE ORDER Nº';
+        Phonelbl = 'Phone:';
+        Faxlbl = 'Fax:';
+        Emaillbl = 'E-mail:';
 
     }
 

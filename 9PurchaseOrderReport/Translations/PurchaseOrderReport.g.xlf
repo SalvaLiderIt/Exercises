@@ -53,6 +53,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Officelbl</note>
         </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 1491607641" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PURCHASE ORDER Nº</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel PurchaseOrderlbl</note>
+        </trans-unit>
         <trans-unit id="Report 2261338465 - ReportLabel 3345757309" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total Invoice EUR:</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -87,6 +92,16 @@
           <source>Province</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CompanyInformationTableExt - Field Province - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 678883167 - Field 1237689382 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+          <source>Province of the purchase header address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PurchaseHeaderExt - Field Province - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 678883167 - Field 1237689382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+          <source>Province</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PurchaseHeaderExt - Field Province - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 1553828550 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Permissions</source>
