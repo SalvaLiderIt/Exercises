@@ -8,10 +8,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Amount</note>
         </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 1240761778" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Amountlbl</note>
+        </trans-unit>
         <trans-unit id="Report 2261338465 - ReportLabel 3174427762" size-unit="char" translate="yes" xml:space="preserve">
-          <source>C.I.F.</source>
+          <source>CIF:</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel CIFlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 4174111817" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Codelbl</note>
         </trans-unit>
         <trans-unit id="Report 2261338465 - ReportLabel 3897595702" size-unit="char" translate="yes" xml:space="preserve">
           <source>Concept</source>
@@ -23,10 +33,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel DeliveryDatelbl</note>
         </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 3533490480" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Descriptionlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 1851721697" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Discountlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 1815534890" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-mail:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Emaillbl</note>
+        </trans-unit>
         <trans-unit id="Report 2261338465 - ReportLabel 1294381530" size-unit="char" translate="yes" xml:space="preserve">
           <source>FACTORY. Tel. +</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Factorylbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 136997839" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fax:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Faxlbl</note>
         </trans-unit>
         <trans-unit id="Report 2261338465 - ReportLabel 1704563417" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. </source>
@@ -53,15 +83,65 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Officelbl</note>
         </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 1100449572" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Date:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel OrderDatelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 2603680424" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Date:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel PaymentDatelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 3077275306" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Phonelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 3785245793" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Pricelbl</note>
+        </trans-unit>
         <trans-unit id="Report 2261338465 - ReportLabel 1491607641" size-unit="char" translate="yes" xml:space="preserve">
           <source>PURCHASE ORDER Nº</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel PurchaseOrderlbl</note>
         </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 1427259971" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Quantitylbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 3547767699" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RAEE(*)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel RAEElbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 1880904475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(*) Rate per Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel RateperUnitlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 1167696683" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reference:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Referencelbl</note>
+        </trans-unit>
         <trans-unit id="Report 2261338465 - ReportLabel 3345757309" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total Invoice EUR:</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel ToTalInvoice</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 29934643" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel Transportlbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2261338465 - ReportLabel 1892233526" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UE</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PedidoCompraReport - ReportLabel UElbl</note>
         </trans-unit>
         <trans-unit id="TableExtension 4144265336 - Field 1713889359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3469146285">
           <source>Additional company name field.</source>

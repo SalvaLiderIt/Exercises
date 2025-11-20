@@ -7,6 +7,7 @@ report 50100 PedidoCompraReport
 
     Permissions = tabledata "Company Information" = r,
                   tabledata "Purchase Header" = r,
+                  tabledata Vendor = r,
                   tabledata "Purchase Line" = r;
 
     dataset
@@ -39,7 +40,12 @@ report 50100 PedidoCompraReport
             column(VendorCP; "Buy-from Post Code") { }
             column(VendorCity; "Buy-from City") { }
             column(VendorProvince; Province) { }
-            //column(VendorPhone; "") { }
+            column(VendorPhone; VendorRec."Phone No.") { }
+            column(VendorFax; VendorRec."Fax No.") { }
+            column(VendorEmail; VendorRec."E-Mail") { }
+            column(VendorCIF; VendorRec."VAT Registration No.") { }
+            column(DocumentNo; "No.") { }
+            column(PaymentDateCode; "Payment Terms Code") { }
 
 
 
@@ -59,6 +65,7 @@ report 50100 PedidoCompraReport
             trigger OnAfterGetRecord()
             begin
                 CompanyInformation.CalcFields(Picture);//muy importante para que se cargue la imagen
+                VendorRec.Get("Buy-from Vendor No.");
             end;
         }
     }
@@ -81,6 +88,21 @@ report 50100 PedidoCompraReport
         Phonelbl = 'Phone:';
         Faxlbl = 'Fax:';
         Emaillbl = 'E-mail:';
+        OrderDatelbl = 'Order Date:';
+        Referencelbl = 'Reference:';
+        Transportlbl = 'Transport:';
+        PaymentDatelbl = 'Payment Date:';
+        Codelbl = 'Code:';
+        Descriptionlbl = 'Description';
+        RAEElbl = 'RAEE(*)';
+        Quantitylbl = 'Quantity';
+        UElbl = 'UE';
+        Pricelbl = 'Price';
+        Discountlbl = 'Discounts';
+        Amountlbl = 'Amount';
+        RateperUnitlbl = '(*) Rate per Unit';
+
+
 
     }
 
@@ -93,4 +115,5 @@ report 50100 PedidoCompraReport
 
     var
         CompanyInformation: Record "Company Information";
+        VendorRec: Record Vendor;
 }
