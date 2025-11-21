@@ -101,6 +101,23 @@ report 50100 PedidoCompraReport
         Discountlbl = 'Discounts';
         Amountlbl = 'Amount';
         RateperUnitlbl = '(*) Rate per Unit';
+        //////////////////////////////////////////////////////////////
+        Shippinglbl = 'Shipping :';
+        Packaginglbl = 'Packaging :';
+        DiscountPPlbl = '% Disc P.P.:';
+        AmountPPlbl = 'Amount P.P.:';
+        AmountRAEElbl = 'Amount RAEE:';
+        RecFinanlbl = '% Rec.Finan.:';
+        AmountRFlbl = 'Amount R.F.:';
+        TaxableBaselbl = 'Taxable Base';
+        VATlbl = '% VAT';
+        VATAmountlbl = 'VAT Amount';
+        RElbl = '% R.E.';
+        AmountRElbl = 'Amount R.E.';
+        GrossAmountlbl = 'Gross Amount';
+        TotalOrderlbl = 'Total Order:';
+        Observationslbl = 'Observations:';
+        DeliverAdresslbl = 'Delivery Address for goods:';
 
 
 
